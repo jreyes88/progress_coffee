@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Order Form</title>
+    <script src='https://code.jquery.com/jquery-2.2.1.min.js'></script>
+</head>
+<body>
+    <h1>Progress Coffee Order Form</h1>
+
+    <form action='/orderCoffee' method='post'>
+
+        <select name="grind">
+            <option value="Whole" selected>Whole Bean</option>
+            <option value="Ground_Drip">Ground for Drip</option>
+            <option value="Ground_French_Press">Ground for French Press</option>
+            <option value="Ground_Espresso">Ground for Espresso Machine</option>
+            <option value="Ground_Cone">Ground for Cone Filter</option>
+        </select>
+
+        <select name="quantity">
+            <option value="1" selected>1</option>
+            <option value="2" selected>2</option>
+            <option value="3" selected>3</option>
+            <option value="4" selected>4</option>
+            <option value="5" selected>5</option>
+            <option value="6" selected>6</option>
+            <option value="7" selected>7</option>
+            <option value="8" selected>8</option>
+            <option value="9" selected>9</option>
+            <option value="10" selected>10</option>
+            <option value="11" selected>11</option>
+            <option value="12" selected>12</option>
+            <option value="13" selected>13</option>
+            <option value="14" selected>14</option>
+            <option value="15" selected>15</option>
+            <option value="20" selected>20</option>
+            <option value="25" selected>25</option>
+            <option value="30" selected>30</option>
+            <option value="40" selected>40</option>
+            <option value="50" selected>50</option>
+            <option value="75" selected>75</option>
+            <option value="100" selected>100</option>
+        </select>
+
+
+    </form>
+
+    <div id='results'></div>
+    <script src='app.js'></script>
+</body>
+</html>
