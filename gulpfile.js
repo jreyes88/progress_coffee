@@ -23,7 +23,19 @@ gulp.task('copy', function(){
 	gulp.src('src/img/singleOrigin/*.*')
 		.pipe(gulp.dest('dist/img/singleOrigin'));
 	gulp.src('src/js/*.*')
-		.pipe(gulp.dest('dist/js'));	
+		.pipe(gulp.dest('dist/js'));
+	gulp.src('src/js/actions/*.*')
+		.pipe(gulp.dest('dist/js/actions'));
+	gulp.src('src/js/components/*.*')
+		.pipe(gulp.dest('dist/js/components'));
+	gulp.src('src/js/constants/*.*')
+		.pipe(gulp.dest('dist/js/constants'));
+	gulp.src('src/js/dispatcher/*.*')
+		.pipe(gulp.dest('dist/js/dispatcher'));
+	gulp.src('src/js/stores/*.*')
+		.pipe(gulp.dest('dist/js/stores'));
+	gulp.src('src/js/utils/*.*')
+		.pipe(gulp.dest('dist/js/utils'));
 	gulp.src('src/js/vendors/*.*')
 		.pipe(gulp.dest('dist/js/vendors'));
 	gulp.src('src/fonts/roboto/*.*')
