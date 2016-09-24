@@ -1,23 +1,23 @@
 {
-  "name": "progress_coffee",
+  "name": "fluxboiler",
   "version": "1.0.0",
-  "description": "",
-  "main": "public/index.html",
+  "description": "Flux architecture starter boiler",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joey Reyes",
   "license": "ISC",
-  "dependencies": {
-    "momentjs": "^1.1.15",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3"
-  },
   "devDependencies": {
-    "babel-core": "^6.3.13",
-    "babel-loader": "^6.2.0",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13",
-    "webpack": "^1.13.1"
+  	"browserify": "*",
+  	"flux": "*",
+  	"gulp": "*",
+  	"reactify": "*",
+  	"vinyl-source-stream": "*",
+  	"object-assign": "*"
+  },
+  "dependences": {
+  	"react": "^0.14.7",
+  	"react-dom": "^0.14.7"
   }
 }
