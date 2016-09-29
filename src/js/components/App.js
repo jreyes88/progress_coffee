@@ -1,15 +1,19 @@
 var React = require('react');
-AppActions = require('../actions/AppActions');
-AppStore = require('../stores/AppStore');
+// AppActions = require('../actions/AppActions');
+// AppStore = require('../stores/AppStore');
 
 // Custom Components
+var CartAPI = require('../utils/CartAPI');
+var FluxCartApp = require('../components/FluxCartApp.react.js');
+var FluxCart = require('./FluxCart.react.js');
 var Nav = require('./nav.js');
 var AboutSection = require('./aboutProgress.js');
 var SingleOriginsSection = require('./singleOrigins.js');
 var Blends = require('./blends.js');
 var Lorem = require('./loremIpsum.js');
 var Footer = require('./footer.js');
-var FluxCartApp = require('./FluxCartApp.react');
+
+CartAPI.getProductData();
 
 function getAppState(){
 	return {
@@ -22,15 +26,17 @@ var App = React.createClass({
 		return getAppState();
 	},
 	componentDidMount: function(){
-		AppStore.addChangeListener(this._onChange);
+		// AppStore.addChangeListener(this._onChange);
 	},
 	componentUnMount: function(){
-		AppStore.removeChangeListener(this._onChange);
+		// AppStore.removeChangeListener(this._onChange);
 	},
 	render: function(){
 		return(
 			<div className='main-container'>
 				<Nav />
+
+				<FluxCart />
 
 			    <div className="parallax-container valign-wrapper">
 			    	<div className="section no-pad-bot">
@@ -78,9 +84,7 @@ var App = React.createClass({
 			        </div>
 			    </div>
 
-			    <Lorem />
-
-			    <FluxCartApp />
+			    <FluxCart />
 
 			    <Footer />
 

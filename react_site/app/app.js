@@ -6,7 +6,6 @@ var AboutSection = require('./Components/aboutProgress.js');
 var SingleOriginsSection = require('./Components/singleOrigins.js');
 var Blends = require('./Components/blends.js');
 var Footer = require('./Components/footer.js');
-var FluxCart = require('./Components/FluxCart.react.js');
 
 ReactDOM.render(
 
