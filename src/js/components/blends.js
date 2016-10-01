@@ -19,9 +19,16 @@ var Blends = React.createClass({
 		                                Cowboy Blend
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="9"
+									    data-item-name="Cowboy"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
@@ -37,6 +44,16 @@ var Blends = React.createClass({
 		                            <p>
 		                                Both strong and brave, rustic and wild, bold and brooding- this special blend is meant for a cup long before sunrise or just as the day breaks on the prairie.
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="9"
+									    data-item-name="Cowboy"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>
@@ -53,9 +70,16 @@ var Blends = React.createClass({
 		                                Espresso Blend
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="10"
+									    data-item-name="Espresso"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
@@ -68,6 +92,16 @@ var Blends = React.createClass({
 		                            <p>
 		                                Mixed berries, cream, low acidity with a slight caramel sweetness.
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="10"
+									    data-item-name="Espresso"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>
@@ -84,9 +118,16 @@ var Blends = React.createClass({
 		                                House Blend
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="11"
+									    data-item-name="House"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
@@ -96,6 +137,16 @@ var Blends = React.createClass({
 		                            <p>
 		                                Medium body and well rounded. Vanilla and chocolate malt with a blackberry like acidity in the finish to cleanse the palate.
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="11"
+									    data-item-name="House"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>
@@ -114,9 +165,16 @@ var Blends = React.createClass({
 		                                Mohawk Blend
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="12"
+									    data-item-name="Mohawk"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
@@ -129,6 +187,16 @@ var Blends = React.createClass({
 		                            <p>
 		                                An exclusive blend done for and with the greatest rock and roll bar on the planet -- <a href="http://www.mohawkaustin.com">The Mohawk</a>
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="12"
+									    data-item-name="Mohawk"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>
@@ -145,9 +213,16 @@ var Blends = React.createClass({
 		                                Mother Blend
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="13"
+									    data-item-name="Mother's"
+									    data-item-price="13.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
@@ -160,6 +235,16 @@ var Blends = React.createClass({
 		                            <p>
 		                                Reviving Mothers one cup at a time. Because all Mothers are working Mothers!
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="13"
+									    data-item-name="Mother's"
+									    data-item-price="13.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>
@@ -176,9 +261,16 @@ var Blends = React.createClass({
 		                                Toddy Blend
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="14"
+									    data-item-name="Toddy"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
@@ -194,6 +286,16 @@ var Blends = React.createClass({
 		                            <p>
 		                                A half light, half dark secret bean blend that creates a well balanced low acidic based iced coffee when slow brewed using the process of the cold Toddy drip.
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="14"
+									    data-item-name="Toddy"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>
@@ -212,9 +314,16 @@ var Blends = React.createClass({
 		                                Italian
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="15"
+									    data-item-name="Italian"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
@@ -227,6 +336,16 @@ var Blends = React.createClass({
 		                            <p>
 		                                You’ll notice a caramel sweetness similar to that of creme brulee. A tingling of anise and pepper will round up your taste buds for a fabulously enjoyable coffee.
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="15"
+									    data-item-name="Italian"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>

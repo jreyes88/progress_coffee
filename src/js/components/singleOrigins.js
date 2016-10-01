@@ -19,9 +19,16 @@ var SingleOriginsSection = React.createClass({
 		                                Brazil
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="1"
+									    data-item-name="Brazil"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
@@ -34,6 +41,16 @@ var SingleOriginsSection = React.createClass({
 		                            <p>
 		                                This South American coffee has a buttery mouth feel to go along with its rich milk chocolate and earth tones. The aroma is of sweet chocolate and hazelnut and there’s a nutty flavor in the finish. This is a hugely popular coffee to base espresso blends on due to its rather universal appeal.
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="1"
+									    data-item-name="Brazil"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>
@@ -50,9 +67,16 @@ var SingleOriginsSection = React.createClass({
 		                                Ethiopia
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="2"
+									    data-item-name="Ethiopia"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
@@ -65,6 +89,16 @@ var SingleOriginsSection = React.createClass({
 		                            <p>
 		                                A coffee from Africa that is a rustic cup with hints of earth, bittersweet chocolate, saffron, and cardamom. Though it really shines with an underlying sweet and ripe blueberry. A complex coffee with a lingering finish. Popular amongst connoisseurs!
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="2"
+									    data-item-name="Ethiopia"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>
@@ -81,9 +115,16 @@ var SingleOriginsSection = React.createClass({
 		                                Guatemala
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="3"
+									    data-item-name="Guatemala"
+									    data-item-price="13.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
@@ -93,6 +134,16 @@ var SingleOriginsSection = React.createClass({
 		                            <p>
 		                                Medium body and acidity with hints of citrus, nut and chocolate.
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="3"
+									    data-item-name="Guatemala"
+									    data-item-price="13.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>
@@ -111,9 +162,16 @@ var SingleOriginsSection = React.createClass({
 		                                Honduras
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="4"
+									    data-item-name="Honduras"
+									    data-item-price="13.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
@@ -123,6 +181,16 @@ var SingleOriginsSection = React.createClass({
 		                            <p>
 		                                Bright, lightly acidic, medium body with notes of fruit and caramel.
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="4"
+									    data-item-name="Honduras"
+									    data-item-price="13.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>
@@ -139,18 +207,32 @@ var SingleOriginsSection = React.createClass({
 		                                Papua New Guinea
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="5"
+									    data-item-name="Papua New Guinea"
+									    data-item-price="13.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
 		                                Papua New Guinea
 		                                <i className="material-icons right">close</i>
 		                            </span>
-		                            <p>
-		                                Medium body and acidity, mild fruit flavor with chocolate/nutty finish.
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="5"
+									    data-item-name="Papua New Guinea"
+									    data-item-price="13.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>
@@ -167,9 +249,16 @@ var SingleOriginsSection = React.createClass({
 		                                Decaf
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="6"
+									    data-item-name="Decaf"
+									    data-item-price="13.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
@@ -182,6 +271,16 @@ var SingleOriginsSection = React.createClass({
 		                            <p>
 		                                100% chemical-free decaffeination method uses pure water to ensure the best, most “mello” decaf you’ll ever taste – guaranteed.
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="6"
+									    data-item-name="Decaf"
+									    data-item-price="13.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>
@@ -200,9 +299,16 @@ var SingleOriginsSection = React.createClass({
 		                                Sumatra
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="7"
+									    data-item-name="Sumatra"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
@@ -215,6 +321,16 @@ var SingleOriginsSection = React.createClass({
 		                            <p>
 		                                This Indonesian coffee is smooth with barely present acidity. A very round-tasting earthy and woodsy cup with a long lingering scotch-esque finish. Sumatran is the most popular coffee world-wide and is often used to give blends body. Also pairs very well with cream and sugar.
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="7"
+									    data-item-name="Sumatra"
+									    data-item-price="12.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>
@@ -231,9 +347,16 @@ var SingleOriginsSection = React.createClass({
 		                                Tanzania
 		                                <i className="material-icons right">more_vert</i>
 		                            </span>
-		                            <p>
-		                                <a href="#">Add to Cart</a>
-		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="8"
+									    data-item-name="Tanzania"
+									    data-item-price="13.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                        <div className="card-reveal">
 		                            <span className="card-title grey-text text-darken-4">
@@ -243,6 +366,16 @@ var SingleOriginsSection = React.createClass({
 		                            <p>
 		                                Peaberry bean medium acidity and body with slight fruity flavor.
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="8"
+									    data-item-name="Tanzania"
+									    data-item-price="13.99"
+									    data-item-weight="16"
+									    data-item-url="/"
+									    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>

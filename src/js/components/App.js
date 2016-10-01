@@ -1,19 +1,12 @@
 var React = require('react');
-// AppActions = require('../actions/AppActions');
-// AppStore = require('../stores/AppStore');
 
 // Custom Components
-var CartAPI = require('../utils/CartAPI');
-var FluxCartApp = require('../components/FluxCartApp.react.js');
-var FluxCart = require('./FluxCart.react.js');
 var Nav = require('./nav.js');
 var AboutSection = require('./aboutProgress.js');
 var SingleOriginsSection = require('./singleOrigins.js');
 var Blends = require('./blends.js');
 var Lorem = require('./loremIpsum.js');
 var Footer = require('./footer.js');
-
-CartAPI.getProductData();
 
 function getAppState(){
 	return {
@@ -22,27 +15,16 @@ function getAppState(){
 };
 
 var App = React.createClass({
-	getInitialState: function(){
-		return getAppState();
-	},
-	componentDidMount: function(){
-		// AppStore.addChangeListener(this._onChange);
-	},
-	componentUnMount: function(){
-		// AppStore.removeChangeListener(this._onChange);
-	},
 	render: function(){
 		return(
 			<div className='main-container'>
 				<Nav />
 
-				<FluxCart />
-
 			    <div className="parallax-container valign-wrapper">
 			    	<div className="section no-pad-bot">
 			            <div className="container">
 			                <div className="row center">
-			                    <img src="img/parallaxBackgrounds/brandLogo.png" className="logoPicture"/>
+			                    <img src="img/Buffalo_Logo.png" className="logoPicture" alt="Buffalo Logo" />
 			                </div>
 			            </div>
 			        </div>
@@ -84,17 +66,13 @@ var App = React.createClass({
 			        </div>
 			    </div>
 
-			    <FluxCart />
+			    <Lorem />
 
 			    <Footer />
 
 			</div>
 		);
 	},
-	_onChange: function(){
-		this.setState(getAppState());
-	}
 });
 
 module.exports = App;
-
