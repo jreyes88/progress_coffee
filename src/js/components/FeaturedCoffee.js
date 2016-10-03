@@ -20,7 +20,7 @@ var Blends = React.createClass({
 	                            </span>
 	                            <button
 								    className="snipcart-add-item waves-light btn"
-								    data-item-id="2"
+								    data-item-id="1"
 								    data-item-name="Cowboy"
 								    data-item-price="12.99"
 								    data-item-weight="16"
@@ -91,7 +91,7 @@ var Blends = React.createClass({
 	                            </span>
 	                            <button
 								    className="snipcart-add-item waves-light btn"
-								    data-item-id="11"
+								    data-item-id="3"
 								    data-item-name="House"
 								    data-item-price="12.99"
 								    data-item-weight="16"
@@ -129,7 +129,7 @@ var Blends = React.createClass({
 	                            </span>
 	                            <button
 								    className="snipcart-add-item waves-light btn"
-								    data-item-id="5"
+								    data-item-id="4"
 								    data-item-name="Papua New Guinea"
 								    data-item-price="13.99"
 								    data-item-weight="16"
@@ -160,9 +160,16 @@ var Blends = React.createClass({
 	                                Honduras
 	                                <i className="material-icons right">more_vert</i>
 	                            </span>
-	                            <p>
-	                                <a href="#">Add to Cart</a>
-	                            </p>
+	                            <button
+								    className="snipcart-add-item waves-light btn"
+								    data-item-id="5"
+								    data-item-name="Honduras"
+								    data-item-price="13.99"
+								    data-item-weight="16"
+								    data-item-url="/"
+								    data-item-custom2-options="Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter">
+								        Add to Cart
+								</button>
 	                        </div>
 	                        <div className="card-reveal">
 	                            <span className="card-title grey-text text-darken-4">

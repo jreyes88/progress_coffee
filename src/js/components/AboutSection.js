@@ -5,9 +5,6 @@ var AboutSection = React.createClass({
 		return(
 			<div className="container">
 		        <div className="section">
-		        <h5 className="center" id="aboutProgress">
-		            Our Story:
-		        </h5>
 		            <div className="row">
 		                <div className="col s12 m12">
 		                    <div className="icon-block">

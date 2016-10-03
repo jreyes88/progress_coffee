@@ -58,6 +58,23 @@ p {
     font-weight: 300;
 }
 
+.customBlendCompanies {
+    background-color: red;
+    height: 85px;
+    width: 240px;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.customBlendCompaniesFirstRowImages {
+    width: 80px;
+}
+
+#roosterTeethImage {
+    margin-bottom: 13px;
+}
+
 .socialMediaIcons {
     float: right;
     width: 10%;

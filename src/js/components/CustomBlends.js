@@ -112,6 +112,13 @@ var CustomBlends = React.createClass({
 	                    </div>
 		            </div>
 		        </div>
+		        <div className="row">
+		        	<div className="customBlendCompanies">
+		        		<img src="img/CustomBlendCompanies/Dropbox.png" className="customBlendCompaniesFirstRowImages"/>
+		        		<img src="img/CustomBlendCompanies/RoosterTeeth.png" className="customBlendCompaniesFirstRowImages" id="roosterTeethImage"/>
+		        		<img src="img/CustomBlendCompanies/SFC.png" className="customBlendCompaniesFirstRowImages"/>
+		            </div>
+		        </div>
 		    </div>
 		)
 	}

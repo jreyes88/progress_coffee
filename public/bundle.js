@@ -19804,6 +19804,23 @@
 					{ className: 'parallax-container valign-wrapper' },
 					React.createElement(
 						'div',
+						{ className: 'section no-pad-bot' },
+						React.createElement(
+							'div',
+							{ className: 'container' },
+							React.createElement(
+								'div',
+								{ className: 'row center' },
+								React.createElement(
+									'h3',
+									{ className: 'header col s12 light' },
+									'Our Coffee'
+								)
+							)
+						)
+					),
+					React.createElement(
+						'div',
 						{ className: 'parallax' },
 						React.createElement('img', { src: 'img/parallaxBackgrounds/02-roastedBeans.jpg', alt: 'Roasted Coffee Beans' })
 					)
@@ -19814,8 +19831,25 @@
 					{ className: 'parallax-container valign-wrapper' },
 					React.createElement(
 						'div',
+						{ className: 'section no-pad-bot' },
+						React.createElement(
+							'div',
+							{ className: 'container' },
+							React.createElement(
+								'div',
+								{ className: 'row center' },
+								React.createElement(
+									'h3',
+									{ className: 'header col s12 light' },
+									'Custom Blends'
+								)
+							)
+						)
+					),
+					React.createElement(
+						'div',
 						{ className: 'parallax' },
-						React.createElement('img', { src: 'img/parallaxBackgrounds/03-finishedBags.jpg', alt: 'Finished Coffee Bags' })
+						React.createElement('img', { src: 'img/parallaxBackgrounds/03-finishedBags1.jpg', alt: 'Finished Coffee Bags' })
 					)
 				),
 				React.createElement(CustomBlends, null),
@@ -20008,11 +20042,6 @@
 					"div",
 					{ className: "section" },
 					React.createElement(
-						"h5",
-						{ className: "center", id: "aboutProgress" },
-						"Our Story:"
-					),
-					React.createElement(
 						"div",
 						{ className: "row" },
 						React.createElement(
@@ -20115,7 +20144,7 @@
 									"button",
 									{
 										className: "snipcart-add-item waves-light btn",
-										"data-item-id": "2",
+										"data-item-id": "1",
 										"data-item-name": "Cowboy",
 										"data-item-price": "12.99",
 										"data-item-weight": "16",
@@ -20246,7 +20275,7 @@
 									"button",
 									{
 										className: "snipcart-add-item waves-light btn",
-										"data-item-id": "11",
+										"data-item-id": "3",
 										"data-item-name": "House",
 										"data-item-price": "12.99",
 										"data-item-weight": "16",
@@ -20313,7 +20342,7 @@
 									"button",
 									{
 										className: "snipcart-add-item waves-light btn",
-										"data-item-id": "5",
+										"data-item-id": "4",
 										"data-item-name": "Papua New Guinea",
 										"data-item-price": "13.99",
 										"data-item-weight": "16",
@@ -20368,13 +20397,16 @@
 									)
 								),
 								React.createElement(
-									"p",
-									null,
-									React.createElement(
-										"a",
-										{ href: "#" },
-										"Add to Cart"
-									)
+									"button",
+									{
+										className: "snipcart-add-item waves-light btn",
+										"data-item-id": "5",
+										"data-item-name": "Honduras",
+										"data-item-price": "13.99",
+										"data-item-weight": "16",
+										"data-item-url": "/",
+										"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
+									"Add to Cart"
 								)
 							),
 							React.createElement(
@@ -20616,6 +20648,17 @@
 								)
 							)
 						)
+					)
+				),
+				React.createElement(
+					"div",
+					{ className: "row" },
+					React.createElement(
+						"div",
+						{ className: "customBlendCompanies" },
+						React.createElement("img", { src: "img/CustomBlendCompanies/Dropbox.png", className: "customBlendCompaniesFirstRowImages" }),
+						React.createElement("img", { src: "img/CustomBlendCompanies/RoosterTeeth.png", className: "customBlendCompaniesFirstRowImages", id: "roosterTeethImage" }),
+						React.createElement("img", { src: "img/CustomBlendCompanies/SFC.png", className: "customBlendCompaniesFirstRowImages" })
 					)
 				)
 			);
