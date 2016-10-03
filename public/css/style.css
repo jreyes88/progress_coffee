@@ -1,12 +1,5 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 nav .brand-logo {
-  color: #fff;
+    color: #fff;
 }
 
 nav ul a:hover {
@@ -14,8 +7,22 @@ nav ul a:hover {
     color: #000;
 }
 
+i.right {
+    margin-top: 13px;
+}
+
+.material-icons {
+    display: inline;
+}
+
+.snipcart-total-items {
+    display: inline;
+    color: #fff;
+    background-color: #000;
+}
+
 .logoPicture {
-  width: 20%;
+    width: 28%;
 }
 
 .card {
@@ -24,50 +31,51 @@ nav ul a:hover {
 }
 
 .inlineIcon {
-  display: inline;
+    display: inline;
 }
 
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 
 .button-collapse {
-  color: #26a69a;
+    color: #26a69a;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
+}
+
+.card .card-title {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.socialMediaIcons {
+    float: right;
+    width: 10%;
+    padding-top: 5px;
+}
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
+    #index-banner .section {
+        top: 0;
+    }
 }

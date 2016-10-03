@@ -10,8 +10,22 @@ nav .brand-logo {
 }
 
 nav ul a:hover {
-    background-color: #fff;
-    color: #000;
+  background-color: #fff;
+  color: #000;
+}
+
+i.right {
+  margin-top: 13px;
+}
+
+.material-icons {
+  display: inline;
+}
+
+.snipcart-total-items {
+  display: inline;
+  color: #fff;
+  background-color: #000;
 }
 
 .logoPicture {

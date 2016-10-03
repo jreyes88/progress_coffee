@@ -2,11 +2,12 @@ var React = require('react');
 
 // Custom Components
 var Nav = require('./nav.js');
-var AboutSection = require('./aboutProgress.js');
+var AboutSection = require('./AboutSection.js');
+var FeaturedCoffee = require('./FeaturedCoffee.js');
 var SingleOriginsSection = require('./singleOrigins.js');
 var Blends = require('./blends.js');
 var Lorem = require('./loremIpsum.js');
-var Footer = require('./footer.js');
+var Footer = require('./Footer.js');
 
 function getAppState(){
 	return {
@@ -24,7 +25,7 @@ var App = React.createClass({
 			    	<div className="section no-pad-bot">
 			            <div className="container">
 			                <div className="row center">
-			                    <img src="img/Buffalo_Logo.png" className="logoPicture" alt="Buffalo Logo" />
+			                    <img src="img/ProgressBuffaloLogo.png" className="logoPicture" alt="Buffalo Logo" />
 			                </div>
 			            </div>
 			        </div>
@@ -41,7 +42,7 @@ var App = React.createClass({
 			        </div>
 			    </div>
 
-			    <SingleOriginsSection />
+			    <FeaturedCoffee />
 
 			    <div className="parallax-container valign-wrapper">
 			        <div className="parallax">

@@ -1,12 +1,15 @@
 var React = require('react');
 
-var Blends = React.createClass({
+var FeaturedCoffee = React.createClass({
 	render: function(){
 		return(
 			<div className="container">
 		        <h5 className="center" id="blends">
-		            Our Signature Coffee Blends:
+		            Some of our featured coffee:
 		        </h5>
+		        <h6 className="center">
+		            Blends
+		        </h6>
 		        <div className="row">
 		            <div className="col s12 m4">
 		                <div className="row">
@@ -356,4 +359,4 @@ var Blends = React.createClass({
 	}
 });
 
-module.exports = Blends;
+module.exports = FeaturedCoffee;

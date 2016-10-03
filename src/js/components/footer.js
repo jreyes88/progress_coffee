@@ -32,9 +32,24 @@ var Footer = React.createClass({
 		        </div>
 		        <div className="footer-copyright">
 		            <div className="container">
-		                <p>
-		                    {String.fromCharCode(169) + ' 2016 Progress Coffee'}
-		                </p>
+		            	<div className="row">
+		            		<div className="col l6 s12">
+				                <p>
+				                    {String.fromCharCode(169) + ' 2016 Progress Coffee'}
+				                </p>
+				            </div>
+				            <div className="col l6 s12">
+				            	<a href="https://twitter.com/progresscoffee/">
+			                		<img src="img/SocialMedia/TwitterIcon.png" className="socialMediaIcons" alt="Twitter Icon"/>
+			                	</a>
+			                	<a href="https://www.instagram.com/progresscoffee/">
+			                		<img src="img/SocialMedia/InstagramIcon.png" className="socialMediaIcons" alt="Instagram Icon"/>
+			                	</a>
+			                	<a href="https://www.facebook.com/progresscoffee/">
+				                	<img src="img/SocialMedia/FacebookIcon.png" className="socialMediaIcons" alt="Facebook Icon"/>
+				                </a>
+			                </div>
+		                </div>
 		            </div>
 		        </div>
 		    </footer>

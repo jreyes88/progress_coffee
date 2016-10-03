@@ -30,6 +30,9 @@ var Nav = React.createClass({
 				                    <i className="material-icons">shopping_cart</i>
 				                </a>
 				            </li>
+				            <li className="snipcart-summary">
+			                    <span className="snipcart-total-price"></span>
+				            </li>
 				        </ul>
 
 				        <ul id="nav-mobile" className="side-nav">
