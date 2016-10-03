@@ -1,35 +1,45 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+/* ================================ */
+/* ===== Navigation Bar       ===== */
+/* ================================ */
 nav .brand-logo {
-  color: #fff;
+    color: #fff;
 }
 
 nav ul a:hover {
-  background-color: #fff;
-  color: #000;
-}
-
-i.right {
-  margin-top: 13px;
-}
-
-.material-icons {
-  display: inline;
+    background-color: #fff;
+    color: #000;
 }
 
 .snipcart-total-items {
-  display: inline;
-  color: #fff;
-  background-color: #000;
+    display: inline;
+    color: #fff;
+    background-color: #000;
 }
 
+/* ================================ */
+/* ===== Parallax Sections    ===== */
+/* ================================ */
 .logoPicture {
-  width: 28%;
+    width: 28%;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+/* ================================ */
+/* ===== Cards, Icons         ===== */
+/* ================================ */
+.card .card-title {
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .card {
@@ -37,51 +47,77 @@ i.right {
     margin-right: 10px;
 }
 
-.inlineIcon {
-  display: inline;
+.customBlendCompanies {
+    background-color: red;
+    height: 85px;
+    width: 240px;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
 }
 
-p {
-  line-height: 2rem;
+i.right {
+    margin-top: 13px;
+}
+
+.material-icons {
+    display: inline;
+}
+
+.inlineIcon {
+    display: inline;
 }
 
 .button-collapse {
-  color: #26a69a;
+    color: #26a69a;
 }
 
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+/* ================================ */
+/* ===== General Styles       ===== */
+/* ================================ */
+p {
+    line-height: 2rem;
 }
-  .parallax-container .section {
-    width: 100%;
-  }
 
+/* ================================ */
+/* ===== Custom Blend Section ===== */
+/* ================================ */
+.customBlendCompaniesFirstRowImages {
+    width: 80px;
+}
+
+#roosterTeethImage {
+    margin-bottom: 13px;
+}
+
+/* ================================ */
+/* ===== Footer               ===== */
+/* ================================ */
+.socialMediaIcons {
+    float: right;
+    width: 10%;
+    padding-top: 5px;
+}
+
+.socialMediaIcons:hover {
+    filter: invert(25%);
+}
+
+/* ================================ */
+/* ===== Media Queries        ===== */
+/* ================================ */
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
+    #index-banner .section {
+        top: 0;
+    }
 }

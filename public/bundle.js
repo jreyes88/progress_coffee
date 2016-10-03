@@ -51,7 +51,7 @@
 	var ReactDOM = __webpack_require__(158);
 	var App = __webpack_require__(159);
 
-	// This code here allows us to render our main component (in this case "Parent")
+	// This code here allows us to render our main component (in this case 'Parent')
 	ReactDOM.render(React.createElement(App, null), document.getElementById('app'));
 
 /***/ },
@@ -19891,128 +19891,128 @@
 /* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	var React = __webpack_require__(1);
 
 	var Nav = React.createClass({
-		displayName: "Nav",
+		displayName: 'Nav',
 
 		render: function render() {
 			return React.createElement(
-				"div",
-				{ className: "navbar" },
+				'div',
+				{ className: 'navbar' },
 				React.createElement(
-					"nav",
-					{ className: "black", role: "navigation" },
+					'nav',
+					{ className: 'black', role: 'navigation' },
 					React.createElement(
-						"div",
-						{ className: "nav-wrapper container" },
+						'div',
+						{ className: 'nav-wrapper container' },
 						React.createElement(
-							"a",
-							{ id: "logo-container", href: "#", className: "brand-logo" },
-							"Progress Coffee"
+							'a',
+							{ id: 'logo-container', href: '#', className: 'brand-logo' },
+							'Progress Coffee'
 						),
 						React.createElement(
-							"ul",
-							{ className: "right hide-on-med-and-down" },
+							'ul',
+							{ className: 'right hide-on-med-and-down' },
 							React.createElement(
-								"li",
+								'li',
 								null,
 								React.createElement(
-									"a",
-									{ href: "#aboutProgress" },
-									"About Progress"
+									'a',
+									{ href: '#aboutProgress' },
+									'About Progress'
 								)
 							),
 							React.createElement(
-								"li",
+								'li',
 								null,
 								React.createElement(
-									"a",
-									{ href: "#singleOrigin" },
-									"Our Coffee"
+									'a',
+									{ href: '#singleOrigin' },
+									'Our Coffee'
 								)
 							),
 							React.createElement(
-								"li",
+								'li',
 								null,
 								React.createElement(
-									"a",
-									{ href: "#" },
-									"Contact Us"
+									'a',
+									{ href: '#' },
+									'Contact Us'
 								)
 							),
 							React.createElement(
-								"li",
+								'li',
 								null,
 								React.createElement(
-									"a",
-									{ href: "#", className: "snipcart-checkout" },
+									'a',
+									{ href: '#', className: 'snipcart-checkout' },
 									React.createElement(
-										"i",
-										{ className: "material-icons" },
-										"shopping_cart"
+										'i',
+										{ className: 'material-icons' },
+										'shopping_cart'
 									)
 								)
 							),
 							React.createElement(
-								"li",
-								{ className: "snipcart-summary" },
-								React.createElement("span", { className: "snipcart-total-price" })
+								'li',
+								{ className: 'snipcart-summary' },
+								React.createElement('span', { className: 'snipcart-total-price' })
 							)
 						),
 						React.createElement(
-							"ul",
-							{ id: "nav-mobile", className: "side-nav" },
+							'ul',
+							{ id: 'nav-mobile', className: 'side-nav' },
 							React.createElement(
-								"li",
+								'li',
 								null,
 								React.createElement(
-									"a",
-									{ href: "#aboutProgres" },
-									"About Progress"
+									'a',
+									{ href: '#aboutProgres' },
+									'About Progress'
 								)
 							),
 							React.createElement(
-								"li",
+								'li',
 								null,
 								React.createElement(
-									"a",
-									{ href: "#allCoffee" },
-									"Our Coffee"
+									'a',
+									{ href: '#allCoffee' },
+									'Our Coffee'
 								)
 							),
 							React.createElement(
-								"li",
+								'li',
 								null,
 								React.createElement(
-									"a",
-									{ href: "#contact" },
-									"Contact Us"
+									'a',
+									{ href: '#contact' },
+									'Contact Us'
 								)
 							),
 							React.createElement(
-								"li",
+								'li',
 								null,
 								React.createElement(
-									"a",
-									{ href: "#" },
+									'a',
+									{ href: '#' },
 									React.createElement(
-										"i",
-										{ className: "material-icons" },
-										"shopping_cart"
+										'i',
+										{ className: 'material-icons' },
+										'shopping_cart'
 									)
 								)
 							)
 						),
 						React.createElement(
-							"a",
-							{ href: "#", "data-activates": "nav-mobile", className: "button-collapse" },
+							'a',
+							{ href: '#', 'data-activates': 'nav-mobile', className: 'button-collapse' },
 							React.createElement(
-								"i",
-								{ className: "material-icons" },
-								"menu"
+								'i',
+								{ className: 'material-icons' },
+								'menu'
 							)
 						)
 					)
@@ -20027,61 +20027,61 @@
 /* 161 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	var React = __webpack_require__(1);
 
 	var AboutSection = React.createClass({
-		displayName: "AboutSection",
+		displayName: 'AboutSection',
 
 		render: function render() {
 			return React.createElement(
-				"div",
-				{ className: "container" },
+				'div',
+				{ className: 'container' },
 				React.createElement(
-					"div",
-					{ className: "section" },
+					'div',
+					{ className: 'section' },
 					React.createElement(
-						"div",
-						{ className: "row" },
+						'div',
+						{ className: 'row' },
 						React.createElement(
-							"div",
-							{ className: "col s12 m12" },
+							'div',
+							{ className: 'col s12 m12' },
 							React.createElement(
-								"div",
-								{ className: "icon-block" },
+								'div',
+								{ className: 'icon-block' },
 								React.createElement(
-									"p",
-									{ className: "light center" },
-									"Progress Coffee Roasting was birthed from a sweet little café on East 5th Street in Austin, Texas. Such a beautiful community grew and grew into a paragon of Progress that launched wonderful coffee roasted by wonderful people. Now you can be part of the Progress by ordering here at the online store and the life and vitality of our community will be delivered straight to your door."
+									'p',
+									{ className: 'light center' },
+									'Progress Coffee Roasting was birthed from a sweet little café on East 5th Street in Austin, Texas. Such a beautiful community grew and grew into a paragon of Progress that launched wonderful coffee roasted by wonderful people. Now you can be part of the Progress by ordering here at the online store and the life and vitality of our community will be delivered straight to your door.'
 								),
 								React.createElement(
-									"p",
-									{ className: "light center" },
-									"We emphasize environmental friendliness, make decisions and actions that positively impact our local communities and those not so local. We are blessed that we can do all this by roasting small batches of select beans at our boutique roasting facility in Austin, Texas!"
+									'p',
+									{ className: 'light center' },
+									'We emphasize environmental friendliness, make decisions and actions that positively impact our local communities and those not so local. We are blessed that we can do all this by roasting small batches of select beans at our boutique roasting facility in Austin, Texas!'
 								),
 								React.createElement(
-									"h6",
-									{ className: "center" },
-									"Better ",
+									'h6',
+									{ className: 'center' },
+									'Better ',
 									React.createElement(
-										"strong",
+										'strong',
 										null,
-										"coffee"
+										'coffee'
 									),
-									". Better ",
+									'. Better ',
 									React.createElement(
-										"strong",
+										'strong',
 										null,
-										"life"
+										'life'
 									),
-									". Better ",
+									'. Better ',
 									React.createElement(
-										"strong",
+										'strong',
 										null,
-										"world"
+										'world'
 									),
-									"."
+									'.'
 								)
 							)
 						)
@@ -20097,335 +20097,335 @@
 /* 162 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	var React = __webpack_require__(1);
 
 	var Blends = React.createClass({
-		displayName: "Blends",
+		displayName: 'Blends',
 
 		render: function render() {
 			return React.createElement(
-				"div",
-				{ className: "container" },
+				'div',
+				{ className: 'container' },
 				React.createElement(
-					"h5",
-					{ className: "center", id: "blends" },
-					"Some of our featured blends:"
+					'h5',
+					{ className: 'center', id: 'blends' },
+					'Some of our featured blends:'
 				),
 				React.createElement(
-					"div",
-					{ className: "row" },
+					'div',
+					{ className: 'row' },
 					React.createElement(
-						"div",
-						{ className: "col s12 m4" },
+						'div',
+						{ className: 'col s12 m4' },
 						React.createElement(
-							"div",
-							{ className: "card" },
+							'div',
+							{ className: 'card' },
 							React.createElement(
-								"div",
-								{ className: "card-image" },
-								React.createElement("img", { src: "img/blends/Cowboy.png" })
+								'div',
+								{ className: 'card-image' },
+								React.createElement('img', { src: 'img/blends/Cowboy.png' })
 							),
 							React.createElement(
-								"div",
-								{ className: "card-content" },
+								'div',
+								{ className: 'card-content' },
 								React.createElement(
-									"span",
-									{ className: "card-title activator grey-text text-darken-4" },
-									"Cowboy Blend",
+									'span',
+									{ className: 'card-title activator grey-text text-darken-4' },
+									'Cowboy Blend',
 									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"more_vert"
+										'i',
+										{ className: 'material-icons right' },
+										'more_vert'
 									)
 								),
 								React.createElement(
-									"button",
+									'button',
 									{
-										className: "snipcart-add-item waves-light btn",
-										"data-item-id": "1",
-										"data-item-name": "Cowboy",
-										"data-item-price": "12.99",
-										"data-item-weight": "16",
-										"data-item-url": "/",
-										"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-									"Add to Cart"
+										className: 'snipcart-add-item waves-light btn',
+										'data-item-id': '1',
+										'data-item-name': 'Cowboy',
+										'data-item-price': '12.99',
+										'data-item-weight': '16',
+										'data-item-url': '/',
+										'data-item-custom2-options': 'Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter' },
+									'Add to Cart'
 								)
 							),
 							React.createElement(
-								"div",
-								{ className: "card-reveal" },
+								'div',
+								{ className: 'card-reveal' },
 								React.createElement(
-									"span",
-									{ className: "card-title grey-text text-darken-4" },
-									"Cowboy Blend",
+									'span',
+									{ className: 'card-title grey-text text-darken-4' },
+									'Cowboy Blend',
 									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"close"
+										'i',
+										{ className: 'material-icons right' },
+										'close'
 									)
 								),
 								React.createElement(
-									"p",
+									'p',
 									null,
-									"Medium body, a slight hint of cream mixes with under tones of peanut butter to create a smooth and pleasant cup with a sweet finish."
+									'Medium body, a slight hint of cream mixes with under tones of peanut butter to create a smooth and pleasant cup with a sweet finish.'
 								),
 								React.createElement(
-									"p",
+									'p',
 									null,
-									"A simple and strong coffee for the Cowboy in all of us..."
+									'A simple and strong coffee for the Cowboy in all of us...'
 								),
 								React.createElement(
-									"p",
+									'p',
 									null,
-									"Both strong and brave, rustic and wild, bold and brooding- this special blend is meant for a cup long before sunrise or just as the day breaks on the prairie."
+									'Both strong and brave, rustic and wild, bold and brooding- this special blend is meant for a cup long before sunrise or just as the day breaks on the prairie.'
 								)
 							)
 						)
 					),
 					React.createElement(
-						"div",
-						{ className: "col s12 m4" },
+						'div',
+						{ className: 'col s12 m4' },
 						React.createElement(
-							"div",
-							{ className: "card" },
+							'div',
+							{ className: 'card' },
 							React.createElement(
-								"div",
-								{ className: "card-image" },
-								React.createElement("img", { src: "img/blends/Mohawk.png" })
+								'div',
+								{ className: 'card-image' },
+								React.createElement('img', { src: 'img/blends/Mohawk.png' })
 							),
 							React.createElement(
-								"div",
-								{ className: "card-content" },
+								'div',
+								{ className: 'card-content' },
 								React.createElement(
-									"span",
-									{ className: "card-title activator grey-text text-darken-4" },
-									"Mohawk Blend",
+									'span',
+									{ className: 'card-title activator grey-text text-darken-4' },
+									'Mohawk Blend',
 									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"more_vert"
+										'i',
+										{ className: 'material-icons right' },
+										'more_vert'
 									)
 								),
 								React.createElement(
-									"button",
+									'button',
 									{
-										className: "snipcart-add-item waves-light btn",
-										"data-item-id": "2",
-										"data-item-name": "Mohawk",
-										"data-item-price": "12.99",
-										"data-item-weight": "16",
-										"data-item-url": "/",
-										"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-									"Add to Cart"
+										className: 'snipcart-add-item waves-light btn',
+										'data-item-id': '2',
+										'data-item-name': 'Mohawk',
+										'data-item-price': '12.99',
+										'data-item-weight': '16',
+										'data-item-url': '/',
+										'data-item-custom2-options': 'Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter' },
+									'Add to Cart'
 								)
 							),
 							React.createElement(
-								"div",
-								{ className: "card-reveal" },
+								'div',
+								{ className: 'card-reveal' },
 								React.createElement(
-									"span",
-									{ className: "card-title grey-text text-darken-4" },
-									"Mohawk Blend",
+									'span',
+									{ className: 'card-title grey-text text-darken-4' },
+									'Mohawk Blend',
 									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"close"
+										'i',
+										{ className: 'material-icons right' },
+										'close'
 									)
 								),
 								React.createElement(
-									"p",
+									'p',
 									null,
-									"An exclusive blend done for and with the greatest rock and roll bar on the planet -- ",
+									'An exclusive blend done for and with the greatest rock and roll bar on the planet -- ',
 									React.createElement(
-										"a",
-										{ href: "http://www.mohawkaustin.com" },
-										"The Mohawk"
+										'a',
+										{ href: 'http://www.mohawkaustin.com' },
+										'The Mohawk'
 									)
 								)
 							)
 						)
 					),
 					React.createElement(
-						"div",
-						{ className: "col s12 m4" },
+						'div',
+						{ className: 'col s12 m4' },
 						React.createElement(
-							"div",
-							{ className: "card" },
+							'div',
+							{ className: 'card' },
 							React.createElement(
-								"div",
-								{ className: "card-image" },
-								React.createElement("img", { src: "img/blends/House.png" })
+								'div',
+								{ className: 'card-image' },
+								React.createElement('img', { src: 'img/blends/House.png' })
 							),
 							React.createElement(
-								"div",
-								{ className: "card-content" },
+								'div',
+								{ className: 'card-content' },
 								React.createElement(
-									"span",
-									{ className: "card-title activator grey-text text-darken-4" },
-									"House Blend",
+									'span',
+									{ className: 'card-title activator grey-text text-darken-4' },
+									'House Blend',
 									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"more_vert"
+										'i',
+										{ className: 'material-icons right' },
+										'more_vert'
 									)
 								),
 								React.createElement(
-									"button",
+									'button',
 									{
-										className: "snipcart-add-item waves-light btn",
-										"data-item-id": "3",
-										"data-item-name": "House",
-										"data-item-price": "12.99",
-										"data-item-weight": "16",
-										"data-item-url": "/",
-										"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-									"Add to Cart"
+										className: 'snipcart-add-item waves-light btn',
+										'data-item-id': '3',
+										'data-item-name': 'House',
+										'data-item-price': '12.99',
+										'data-item-weight': '16',
+										'data-item-url': '/',
+										'data-item-custom2-options': 'Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter' },
+									'Add to Cart'
 								)
 							),
 							React.createElement(
-								"div",
-								{ className: "card-reveal" },
+								'div',
+								{ className: 'card-reveal' },
 								React.createElement(
-									"span",
-									{ className: "card-title grey-text text-darken-4" },
-									"House Blend",
+									'span',
+									{ className: 'card-title grey-text text-darken-4' },
+									'House Blend',
 									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"close"
+										'i',
+										{ className: 'material-icons right' },
+										'close'
 									)
 								),
 								React.createElement(
-									"p",
+									'p',
 									null,
-									"Medium body and well rounded. Vanilla and chocolate malt with a blackberry like acidity in the finish to cleanse the palate."
+									'Medium body and well rounded. Vanilla and chocolate malt with a blackberry like acidity in the finish to cleanse the palate.'
 								)
 							)
 						)
 					)
 				),
 				React.createElement(
-					"div",
-					{ className: "row" },
+					'div',
+					{ className: 'row' },
 					React.createElement(
-						"h5",
-						{ className: "center", id: "blends" },
-						"Signature Single Origins:"
+						'h5',
+						{ className: 'center', id: 'blends' },
+						'Signature Single Origins:'
 					),
 					React.createElement(
-						"div",
-						{ className: "col s12 m4 offset-m2" },
+						'div',
+						{ className: 'col s12 m4 offset-m2' },
 						React.createElement(
-							"div",
-							{ className: "card" },
+							'div',
+							{ className: 'card' },
 							React.createElement(
-								"div",
-								{ className: "card-image" },
-								React.createElement("img", { src: "img/singleOrigin/PNG.png" })
+								'div',
+								{ className: 'card-image' },
+								React.createElement('img', { src: 'img/singleOrigin/PNG.png' })
 							),
 							React.createElement(
-								"div",
-								{ className: "card-content" },
+								'div',
+								{ className: 'card-content' },
 								React.createElement(
-									"span",
-									{ className: "card-title activator grey-text text-darken-4" },
-									"Papua New Guinea",
+									'span',
+									{ className: 'card-title activator grey-text text-darken-4' },
+									'Papua New Guinea',
 									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"more_vert"
+										'i',
+										{ className: 'material-icons right' },
+										'more_vert'
 									)
 								),
 								React.createElement(
-									"button",
+									'button',
 									{
-										className: "snipcart-add-item waves-light btn",
-										"data-item-id": "4",
-										"data-item-name": "Papua New Guinea",
-										"data-item-price": "13.99",
-										"data-item-weight": "16",
-										"data-item-url": "/",
-										"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-									"Add to Cart"
+										className: 'snipcart-add-item waves-light btn',
+										'data-item-id': '4',
+										'data-item-name': 'Papua New Guinea',
+										'data-item-price': '13.99',
+										'data-item-weight': '16',
+										'data-item-url': '/',
+										'data-item-custom2-options': 'Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter' },
+									'Add to Cart'
 								)
 							),
 							React.createElement(
-								"div",
-								{ className: "card-reveal" },
+								'div',
+								{ className: 'card-reveal' },
 								React.createElement(
-									"span",
-									{ className: "card-title grey-text text-darken-4" },
-									"Papua New Guinea",
+									'span',
+									{ className: 'card-title grey-text text-darken-4' },
+									'Papua New Guinea',
 									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"close"
+										'i',
+										{ className: 'material-icons right' },
+										'close'
 									)
 								),
 								React.createElement(
-									"p",
+									'p',
 									null,
-									"A heavier bodied, earthy cup. Smooth and light acidity."
+									'A heavier bodied, earthy cup. Smooth and light acidity.'
 								)
 							)
 						)
 					),
 					React.createElement(
-						"div",
-						{ className: "col s12 m4" },
+						'div',
+						{ className: 'col s12 m4' },
 						React.createElement(
-							"div",
-							{ className: "card" },
+							'div',
+							{ className: 'card' },
 							React.createElement(
-								"div",
-								{ className: "card-image" },
-								React.createElement("img", { src: "img/singleOrigin/Honduras.png" })
+								'div',
+								{ className: 'card-image' },
+								React.createElement('img', { src: 'img/singleOrigin/Honduras.png' })
 							),
 							React.createElement(
-								"div",
-								{ className: "card-content" },
+								'div',
+								{ className: 'card-content' },
 								React.createElement(
-									"span",
-									{ className: "card-title activator grey-text text-darken-4" },
-									"Honduras",
+									'span',
+									{ className: 'card-title activator grey-text text-darken-4' },
+									'Honduras',
 									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"more_vert"
+										'i',
+										{ className: 'material-icons right' },
+										'more_vert'
 									)
 								),
 								React.createElement(
-									"button",
+									'button',
 									{
-										className: "snipcart-add-item waves-light btn",
-										"data-item-id": "5",
-										"data-item-name": "Honduras",
-										"data-item-price": "13.99",
-										"data-item-weight": "16",
-										"data-item-url": "/",
-										"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-									"Add to Cart"
+										className: 'snipcart-add-item waves-light btn',
+										'data-item-id': '5',
+										'data-item-name': 'Honduras',
+										'data-item-price': '13.99',
+										'data-item-weight': '16',
+										'data-item-url': '/',
+										'data-item-custom2-options': 'Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter' },
+									'Add to Cart'
 								)
 							),
 							React.createElement(
-								"div",
-								{ className: "card-reveal" },
+								'div',
+								{ className: 'card-reveal' },
 								React.createElement(
-									"span",
-									{ className: "card-title grey-text text-darken-4" },
-									"Honduras",
+									'span',
+									{ className: 'card-title grey-text text-darken-4' },
+									'Honduras',
 									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"close"
+										'i',
+										{ className: 'material-icons right' },
+										'close'
 									)
 								),
 								React.createElement(
-									"p",
+									'p',
 									null,
-									"Smoked nuttiness and wood form the base of this coffee with added citrus body"
+									'Smoked nuttiness and wood form the base of this coffee with added citrus body'
 								)
 							)
 						)
@@ -20441,224 +20441,79 @@
 /* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	var React = __webpack_require__(1);
 
 	var CustomBlends = React.createClass({
-		displayName: "CustomBlends",
+		displayName: 'CustomBlends',
 
 		render: function render() {
 			return React.createElement(
-				"div",
-				{ className: "container" },
+				'div',
+				{ className: 'container' },
 				React.createElement(
-					"h5",
-					{ className: "center", id: "blends" },
-					"Custom blends:"
+					'p',
+					{ className: 'center' },
+					'From custom blend creations catering to your taste profile to specialized labels on the coffee bags, we\'ll work tirelessly to build a truly memorable coffee brand for your business or occasion.'
 				),
 				React.createElement(
-					"div",
-					{ className: "row" },
+					'p',
+					{ className: 'center' },
+					'The following are custom labels used by some of our favorite business partners.'
+				),
+				React.createElement(
+					'div',
+					{ className: 'row' },
 					React.createElement(
-						"div",
-						{ className: "col s12 m4" },
+						'div',
+						{ className: 'col s12 m4' },
 						React.createElement(
-							"div",
-							{ className: "card" },
+							'div',
+							{ className: 'card' },
 							React.createElement(
-								"div",
-								{ className: "card-image" },
-								React.createElement("img", { src: "img/CustomBlends/Capitol.png" })
-							),
-							React.createElement(
-								"div",
-								{ className: "card-content" },
-								React.createElement(
-									"span",
-									{ className: "card-title activator grey-text text-darken-4" },
-									"Capitol Premium Blend",
-									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"more_vert"
-									)
-								),
-								React.createElement(
-									"button",
-									{
-										className: "snipcart-add-item waves-light btn",
-										"data-item-id": "2",
-										"data-item-name": "Cowboy",
-										"data-item-price": "12.99",
-										"data-item-weight": "16",
-										"data-item-url": "/",
-										"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-									"Add to Cart"
-								)
-							),
-							React.createElement(
-								"div",
-								{ className: "card-reveal" },
-								React.createElement(
-									"span",
-									{ className: "card-title grey-text text-darken-4" },
-									"Cowboy Blend",
-									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"close"
-									)
-								),
-								React.createElement(
-									"p",
-									null,
-									"Medium body, a slight hint of cream mixes with under tones of peanut butter to create a smooth and pleasant cup with a sweet finish."
-								),
-								React.createElement(
-									"p",
-									null,
-									"A simple and strong coffee for the Cowboy in all of us..."
-								),
-								React.createElement(
-									"p",
-									null,
-									"Both strong and brave, rustic and wild, bold and brooding- this special blend is meant for a cup long before sunrise or just as the day breaks on the prairie."
-								)
+								'div',
+								{ className: 'card-image' },
+								React.createElement('img', { src: 'img/CustomBlends/Capitol.png' })
 							)
 						)
 					),
 					React.createElement(
-						"div",
-						{ className: "col s12 m4" },
+						'div',
+						{ className: 'col s12 m4' },
 						React.createElement(
-							"div",
-							{ className: "card" },
+							'div',
+							{ className: 'card' },
 							React.createElement(
-								"div",
-								{ className: "card-image" },
-								React.createElement("img", { src: "img/CustomBlends/RetailMeNot.png" })
-							),
-							React.createElement(
-								"div",
-								{ className: "card-content" },
-								React.createElement(
-									"span",
-									{ className: "card-title activator grey-text text-darken-4" },
-									"Mohawk Blend",
-									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"more_vert"
-									)
-								),
-								React.createElement(
-									"button",
-									{
-										className: "snipcart-add-item waves-light btn",
-										"data-item-id": "2",
-										"data-item-name": "Mohawk",
-										"data-item-price": "12.99",
-										"data-item-weight": "16",
-										"data-item-url": "/",
-										"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-									"Add to Cart"
-								)
-							),
-							React.createElement(
-								"div",
-								{ className: "card-reveal" },
-								React.createElement(
-									"span",
-									{ className: "card-title grey-text text-darken-4" },
-									"Mohawk Blend",
-									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"close"
-									)
-								),
-								React.createElement(
-									"p",
-									null,
-									"An exclusive blend done for and with the greatest rock and roll bar on the planet -- ",
-									React.createElement(
-										"a",
-										{ href: "http://www.mohawkaustin.com" },
-										"The Mohawk"
-									)
-								)
+								'div',
+								{ className: 'card-image' },
+								React.createElement('img', { src: 'img/CustomBlends/RetailMeNot.png' })
 							)
 						)
 					),
 					React.createElement(
-						"div",
-						{ className: "col s12 m4" },
+						'div',
+						{ className: 'col s12 m4' },
 						React.createElement(
-							"div",
-							{ className: "card" },
+							'div',
+							{ className: 'card' },
 							React.createElement(
-								"div",
-								{ className: "card-image" },
-								React.createElement("img", { src: "img/CustomBlends/RoosterTeeth.png" })
-							),
-							React.createElement(
-								"div",
-								{ className: "card-content" },
-								React.createElement(
-									"span",
-									{ className: "card-title activator grey-text text-darken-4" },
-									"House Blend",
-									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"more_vert"
-									)
-								),
-								React.createElement(
-									"button",
-									{
-										className: "snipcart-add-item waves-light btn",
-										"data-item-id": "11",
-										"data-item-name": "House",
-										"data-item-price": "12.99",
-										"data-item-weight": "16",
-										"data-item-url": "/",
-										"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-									"Add to Cart"
-								)
-							),
-							React.createElement(
-								"div",
-								{ className: "card-reveal" },
-								React.createElement(
-									"span",
-									{ className: "card-title grey-text text-darken-4" },
-									"House Blend",
-									React.createElement(
-										"i",
-										{ className: "material-icons right" },
-										"close"
-									)
-								),
-								React.createElement(
-									"p",
-									null,
-									"Medium body and well rounded. Vanilla and chocolate malt with a blackberry like acidity in the finish to cleanse the palate."
-								)
+								'div',
+								{ className: 'card-image' },
+								React.createElement('img', { src: 'img/CustomBlends/RoosterTeeth.png' })
 							)
 						)
 					)
 				),
 				React.createElement(
-					"div",
-					{ className: "row" },
+					'div',
+					{ className: 'row' },
 					React.createElement(
-						"div",
-						{ className: "customBlendCompanies" },
-						React.createElement("img", { src: "img/CustomBlendCompanies/Dropbox.png", className: "customBlendCompaniesFirstRowImages" }),
-						React.createElement("img", { src: "img/CustomBlendCompanies/RoosterTeeth.png", className: "customBlendCompaniesFirstRowImages", id: "roosterTeethImage" }),
-						React.createElement("img", { src: "img/CustomBlendCompanies/SFC.png", className: "customBlendCompaniesFirstRowImages" })
+						'div',
+						{ className: 'customBlendCompanies' },
+						React.createElement('img', { src: 'img/CustomBlendCompanies/Dropbox.png', className: 'customBlendCompaniesFirstRowImages' }),
+						React.createElement('img', { src: 'img/CustomBlendCompanies/RoosterTeeth.png', className: 'customBlendCompaniesFirstRowImages', id: 'roosterTeethImage' }),
+						React.createElement('img', { src: 'img/CustomBlendCompanies/SFC.png', className: 'customBlendCompaniesFirstRowImages' })
 					)
 				)
 			);
@@ -20671,40 +20526,40 @@
 /* 164 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	var React = __webpack_require__(1);
 
 	var Lorem = React.createClass({
-		displayName: "Lorem",
+		displayName: 'Lorem',
 
 		render: function render() {
 			return React.createElement(
-				"div",
-				{ className: "container" },
+				'div',
+				{ className: 'container' },
 				React.createElement(
-					"div",
-					{ className: "section" },
+					'div',
+					{ className: 'section' },
 					React.createElement(
-						"div",
-						{ className: "row" },
+						'div',
+						{ className: 'row' },
 						React.createElement(
-							"div",
-							{ className: "col s12 center" },
+							'div',
+							{ className: 'col s12 center' },
 							React.createElement(
-								"h3",
+								'h3',
 								null,
-								React.createElement("i", { className: "mdi-content-send brown-text" })
+								React.createElement('i', { className: 'mdi-content-send brown-text' })
 							),
 							React.createElement(
-								"h4",
+								'h4',
 								null,
-								"Contact Us"
+								'Contact Us'
 							),
 							React.createElement(
-								"p",
-								{ className: "left-align light" },
-								"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;"
+								'p',
+								{ className: 'left-align light' },
+								'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;'
 							)
 						)
 					)
@@ -20719,59 +20574,59 @@
 /* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
 	var React = __webpack_require__(1);
 
 	var Footer = React.createClass({
-		displayName: "Footer",
+		displayName: 'Footer',
 
 		render: function render() {
 			return React.createElement(
-				"footer",
-				{ className: "page-footer teal" },
+				'footer',
+				{ className: 'page-footer teal' },
 				React.createElement(
-					"div",
-					{ className: "container" },
+					'div',
+					{ className: 'container' },
 					React.createElement(
-						"div",
-						{ className: "row" },
+						'div',
+						{ className: 'row' },
 						React.createElement(
-							"div",
-							{ className: "col l6 s12" },
+							'div',
+							{ className: 'col l6 s12' },
 							React.createElement(
-								"h5",
-								{ className: "white-text" },
-								"Progress Coffee"
+								'h5',
+								{ className: 'white-text' },
+								'Progress Coffee'
 							),
 							React.createElement(
-								"ul",
+								'ul',
 								null,
 								React.createElement(
-									"li",
+									'li',
 									null,
 									React.createElement(
-										"p",
-										{ className: "white-text" },
-										"3421 North IH35 | Austin TX 78722"
+										'p',
+										{ className: 'white-text' },
+										'3421 North IH35 | Austin TX 78722'
 									)
 								),
 								React.createElement(
-									"li",
+									'li',
 									null,
 									React.createElement(
-										"p",
-										{ className: "white-text" },
-										"info@progresscoffeeroasting.com"
+										'p',
+										{ className: 'white-text' },
+										'info@progresscoffeeroasting.com'
 									)
 								),
 								React.createElement(
-									"li",
+									'li',
 									null,
 									React.createElement(
-										"p",
-										{ className: "white-text" },
-										"512-334-9211"
+										'p',
+										{ className: 'white-text' },
+										'512-334-9211'
 									)
 								)
 							)
@@ -20779,40 +20634,40 @@
 					)
 				),
 				React.createElement(
-					"div",
-					{ className: "footer-copyright" },
+					'div',
+					{ className: 'footer-copyright' },
 					React.createElement(
-						"div",
-						{ className: "container" },
+						'div',
+						{ className: 'container' },
 						React.createElement(
-							"div",
-							{ className: "row" },
+							'div',
+							{ className: 'row' },
 							React.createElement(
-								"div",
-								{ className: "col l6 s12" },
+								'div',
+								{ className: 'col l6 s12' },
 								React.createElement(
-									"p",
+									'p',
 									null,
 									String.fromCharCode(169) + ' 2016 Progress Coffee'
 								)
 							),
 							React.createElement(
-								"div",
-								{ className: "col l6 s12" },
+								'div',
+								{ className: 'col l6 s12' },
 								React.createElement(
-									"a",
-									{ href: "https://twitter.com/progresscoffee/" },
-									React.createElement("img", { src: "img/SocialMedia/TwitterIcon.png", className: "socialMediaIcons", alt: "Twitter Icon" })
+									'a',
+									{ href: 'https://twitter.com/progresscoffee/' },
+									React.createElement('img', { src: 'img/SocialMedia/TwitterIcon.png', className: 'socialMediaIcons', alt: 'Twitter Icon' })
 								),
 								React.createElement(
-									"a",
-									{ href: "https://www.instagram.com/progresscoffee/" },
-									React.createElement("img", { src: "img/SocialMedia/InstagramIcon.png", className: "socialMediaIcons", alt: "Instagram Icon" })
+									'a',
+									{ href: 'https://www.instagram.com/progresscoffee/' },
+									React.createElement('img', { src: 'img/SocialMedia/InstagramIcon.png', className: 'socialMediaIcons', alt: 'Instagram Icon' })
 								),
 								React.createElement(
-									"a",
-									{ href: "https://www.facebook.com/progresscoffee/" },
-									React.createElement("img", { src: "img/SocialMedia/FacebookIcon.png", className: "socialMediaIcons", alt: "Facebook Icon" })
+									'a',
+									{ href: 'https://www.facebook.com/progresscoffee/' },
+									React.createElement('img', { src: 'img/SocialMedia/FacebookIcon.png', className: 'socialMediaIcons', alt: 'Facebook Icon' })
 								)
 							)
 						)

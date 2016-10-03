@@ -1,13 +1,13 @@
 module.exports = {
   
   // This code will be compiled 
-  entry: "./src/js/app.js",
+  entry: './src/js/app.js',
 
   // Then output into this file
   output: {
-    path: __dirname + "/public",
+    path: __dirname + '/public',
     publicPath: '/',
-    filename: "bundle.js"
+    filename: 'bundle.js'
   },
 
 

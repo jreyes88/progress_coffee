@@ -1,3 +1,6 @@
+/* ================================ */
+/* ===== Navigation Bar       ===== */
+/* ================================ */
 nav .brand-logo {
     color: #fff;
 }
@@ -7,39 +10,17 @@ nav ul a:hover {
     color: #000;
 }
 
-i.right {
-    margin-top: 13px;
-}
-
-.material-icons {
-    display: inline;
-}
-
 .snipcart-total-items {
     display: inline;
     color: #fff;
     background-color: #000;
 }
 
+/* ================================ */
+/* ===== Parallax Sections    ===== */
+/* ================================ */
 .logoPicture {
     width: 28%;
-}
-
-.card {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.inlineIcon {
-    display: inline;
-}
-
-p {
-    line-height: 2rem;
-}
-
-.button-collapse {
-    color: #26a69a;
 }
 
 .parallax-container {
@@ -53,9 +34,17 @@ p {
     width: 100%;
 }
 
+/* ================================ */
+/* ===== Cards, Icons         ===== */
+/* ================================ */
 .card .card-title {
     font-size: 20px;
     font-weight: 300;
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .customBlendCompanies {
@@ -67,6 +56,32 @@ p {
     margin: 0 auto;
 }
 
+i.right {
+    margin-top: 13px;
+}
+
+.material-icons {
+    display: inline;
+}
+
+.inlineIcon {
+    display: inline;
+}
+
+.button-collapse {
+    color: #26a69a;
+}
+
+/* ================================ */
+/* ===== General Styles       ===== */
+/* ================================ */
+p {
+    line-height: 2rem;
+}
+
+/* ================================ */
+/* ===== Custom Blend Section ===== */
+/* ================================ */
 .customBlendCompaniesFirstRowImages {
     width: 80px;
 }
@@ -75,12 +90,22 @@ p {
     margin-bottom: 13px;
 }
 
+/* ================================ */
+/* ===== Footer               ===== */
+/* ================================ */
 .socialMediaIcons {
     float: right;
     width: 10%;
     padding-top: 5px;
 }
 
+.socialMediaIcons:hover {
+    filter: invert(25%);
+}
+
+/* ================================ */
+/* ===== Media Queries        ===== */
+/* ================================ */
 @media only screen and (max-width : 992px) {
     .parallax-container .section {
         position: absolute;
