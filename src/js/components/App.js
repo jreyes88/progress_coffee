@@ -4,8 +4,7 @@ var React = require('react');
 var Nav = require('./nav.js');
 var AboutSection = require('./AboutSection.js');
 var FeaturedCoffee = require('./FeaturedCoffee.js');
-var SingleOriginsSection = require('./singleOrigins.js');
-var Blends = require('./blends.js');
+var CustomBlends = require('./CustomBlends.js');
 var Lorem = require('./loremIpsum.js');
 var Footer = require('./Footer.js');
 
@@ -50,7 +49,7 @@ var App = React.createClass({
 			        </div>
 			    </div>
 
-			    <Blends />
+			    <CustomBlends />
 
 			    <div className="parallax-container valign-wrapper">
 			        <div className="section no-pad-bot">

@@ -19758,12 +19758,11 @@
 
 	// Custom Components
 	var Nav = __webpack_require__(160);
-	var AboutSection = __webpack_require__(167);
+	var AboutSection = __webpack_require__(161);
 	var FeaturedCoffee = __webpack_require__(162);
-	var SingleOriginsSection = __webpack_require__(163);
-	var Blends = __webpack_require__(164);
-	var Lorem = __webpack_require__(165);
-	var Footer = __webpack_require__(166);
+	var CustomBlends = __webpack_require__(163);
+	var Lorem = __webpack_require__(164);
+	var Footer = __webpack_require__(165);
 
 	function getAppState() {
 		return {};
@@ -19819,7 +19818,7 @@
 						React.createElement('img', { src: 'img/parallaxBackgrounds/03-finishedBags.jpg', alt: 'Finished Coffee Bags' })
 					)
 				),
-				React.createElement(Blends, null),
+				React.createElement(CustomBlends, null),
 				React.createElement(
 					'div',
 					{ className: 'parallax-container valign-wrapper' },
@@ -19991,7 +19990,81 @@
 	module.exports = Nav;
 
 /***/ },
-/* 161 */,
+/* 161 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	var React = __webpack_require__(1);
+
+	var AboutSection = React.createClass({
+		displayName: "AboutSection",
+
+		render: function render() {
+			return React.createElement(
+				"div",
+				{ className: "container" },
+				React.createElement(
+					"div",
+					{ className: "section" },
+					React.createElement(
+						"h5",
+						{ className: "center", id: "aboutProgress" },
+						"Our Story:"
+					),
+					React.createElement(
+						"div",
+						{ className: "row" },
+						React.createElement(
+							"div",
+							{ className: "col s12 m12" },
+							React.createElement(
+								"div",
+								{ className: "icon-block" },
+								React.createElement(
+									"p",
+									{ className: "light center" },
+									"Progress Coffee Roasting was birthed from a sweet little café on East 5th Street in Austin, Texas. Such a beautiful community grew and grew into a paragon of Progress that launched wonderful coffee roasted by wonderful people. Now you can be part of the Progress by ordering here at the online store and the life and vitality of our community will be delivered straight to your door."
+								),
+								React.createElement(
+									"p",
+									{ className: "light center" },
+									"We emphasize environmental friendliness, make decisions and actions that positively impact our local communities and those not so local. We are blessed that we can do all this by roasting small batches of select beans at our boutique roasting facility in Austin, Texas!"
+								),
+								React.createElement(
+									"h6",
+									{ className: "center" },
+									"Better ",
+									React.createElement(
+										"strong",
+										null,
+										"coffee"
+									),
+									". Better ",
+									React.createElement(
+										"strong",
+										null,
+										"life"
+									),
+									". Better ",
+									React.createElement(
+										"strong",
+										null,
+										"world"
+									),
+									"."
+								)
+							)
+						)
+					)
+				)
+			);
+		}
+	});
+
+	module.exports = AboutSection;
+
+/***/ },
 /* 162 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -20340,1246 +20413,219 @@
 
 	var React = __webpack_require__(1);
 
-	var SingleOriginsSection = React.createClass({
-								displayName: "SingleOriginsSection",
+	var CustomBlends = React.createClass({
+		displayName: "CustomBlends",
 
-								render: function render() {
-															return React.createElement(
-																						"div",
-																						{ className: "container" },
-																						React.createElement(
-																													"h5",
-																													{ className: "center", id: "singleOrigin" },
-																													"Our Single Origin Coffee:"
-																						),
-																						React.createElement(
-																													"div",
-																													{ className: "row" },
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/singleOrigin/01-Brazil.png", className: "materialboxed" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"Brazil",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "1",
-																																																																							"data-item-name": "Brazil",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"Brazil",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"Medium body and low acidity."
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"This South American coffee has a buttery mouth feel to go along with its rich milk chocolate and earth tones. The aroma is of sweet chocolate and hazelnut and there’s a nutty flavor in the finish. This is a hugely popular coffee to base espresso blends on due to its rather universal appeal."
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "1",
-																																																																							"data-item-name": "Brazil",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													),
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/singleOrigin/02-Ethiopia.png" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"Ethiopia",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "2",
-																																																																							"data-item-name": "Ethiopia",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"Ethiopia",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"Medium full body with a gentle acidity."
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"A coffee from Africa that is a rustic cup with hints of earth, bittersweet chocolate, saffron, and cardamom. Though it really shines with an underlying sweet and ripe blueberry. A complex coffee with a lingering finish. Popular amongst connoisseurs!"
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "2",
-																																																																							"data-item-name": "Ethiopia",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													),
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/singleOrigin/03-Guatemala.png" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"Guatemala",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "3",
-																																																																							"data-item-name": "Guatemala",
-																																																																							"data-item-price": "13.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"Guatemala",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"Medium body and acidity with hints of citrus, nut and chocolate."
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "3",
-																																																																							"data-item-name": "Guatemala",
-																																																																							"data-item-price": "13.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													)
-																						),
-																						React.createElement(
-																													"div",
-																													{ className: "row" },
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/singleOrigin/04-Honduras.png" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"Honduras",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "4",
-																																																																							"data-item-name": "Honduras",
-																																																																							"data-item-price": "13.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"Honduras",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"Bright, lightly acidic, medium body with notes of fruit and caramel."
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "4",
-																																																																							"data-item-name": "Honduras",
-																																																																							"data-item-price": "13.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													),
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/singleOrigin/05-PNG.png" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"Papua New Guinea",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "5",
-																																																																							"data-item-name": "Papua New Guinea",
-																																																																							"data-item-price": "13.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"Papua New Guinea",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "5",
-																																																																							"data-item-name": "Papua New Guinea",
-																																																																							"data-item-price": "13.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													),
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/singleOrigin/06-Decaf.png" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"Decaf",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "6",
-																																																																							"data-item-name": "Decaf",
-																																																																							"data-item-price": "13.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"Decaf",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"Mountain Water Process decaffeinated coffee."
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"100% chemical-free decaffeination method uses pure water to ensure the best, most “mello” decaf you’ll ever taste – guaranteed."
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "6",
-																																																																							"data-item-name": "Decaf",
-																																																																							"data-item-price": "13.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													)
-																						),
-																						React.createElement(
-																													"div",
-																													{ className: "row" },
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4 offset-m2" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/singleOrigin/07-Sumatra.png" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"Sumatra",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "7",
-																																																																							"data-item-name": "Sumatra",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"Sumatra",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"Heavy body, the fullest of what we carry."
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"This Indonesian coffee is smooth with barely present acidity. A very round-tasting earthy and woodsy cup with a long lingering scotch-esque finish. Sumatran is the most popular coffee world-wide and is often used to give blends body. Also pairs very well with cream and sugar."
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "7",
-																																																																							"data-item-name": "Sumatra",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													),
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/singleOrigin/08-Tanzania.png" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"Tanzania",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "8",
-																																																																							"data-item-name": "Tanzania",
-																																																																							"data-item-price": "13.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"Tanzania",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"Peaberry bean medium acidity and body with slight fruity flavor."
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "8",
-																																																																							"data-item-name": "Tanzania",
-																																																																							"data-item-price": "13.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													)
-																						)
-															);
-								}
+		render: function render() {
+			return React.createElement(
+				"div",
+				{ className: "container" },
+				React.createElement(
+					"h5",
+					{ className: "center", id: "blends" },
+					"Custom blends:"
+				),
+				React.createElement(
+					"div",
+					{ className: "row" },
+					React.createElement(
+						"div",
+						{ className: "col s12 m4" },
+						React.createElement(
+							"div",
+							{ className: "card" },
+							React.createElement(
+								"div",
+								{ className: "card-image" },
+								React.createElement("img", { src: "img/CustomBlends/Capitol.png" })
+							),
+							React.createElement(
+								"div",
+								{ className: "card-content" },
+								React.createElement(
+									"span",
+									{ className: "card-title activator grey-text text-darken-4" },
+									"Capitol Premium Blend",
+									React.createElement(
+										"i",
+										{ className: "material-icons right" },
+										"more_vert"
+									)
+								),
+								React.createElement(
+									"button",
+									{
+										className: "snipcart-add-item waves-light btn",
+										"data-item-id": "2",
+										"data-item-name": "Cowboy",
+										"data-item-price": "12.99",
+										"data-item-weight": "16",
+										"data-item-url": "/",
+										"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
+									"Add to Cart"
+								)
+							),
+							React.createElement(
+								"div",
+								{ className: "card-reveal" },
+								React.createElement(
+									"span",
+									{ className: "card-title grey-text text-darken-4" },
+									"Cowboy Blend",
+									React.createElement(
+										"i",
+										{ className: "material-icons right" },
+										"close"
+									)
+								),
+								React.createElement(
+									"p",
+									null,
+									"Medium body, a slight hint of cream mixes with under tones of peanut butter to create a smooth and pleasant cup with a sweet finish."
+								),
+								React.createElement(
+									"p",
+									null,
+									"A simple and strong coffee for the Cowboy in all of us..."
+								),
+								React.createElement(
+									"p",
+									null,
+									"Both strong and brave, rustic and wild, bold and brooding- this special blend is meant for a cup long before sunrise or just as the day breaks on the prairie."
+								)
+							)
+						)
+					),
+					React.createElement(
+						"div",
+						{ className: "col s12 m4" },
+						React.createElement(
+							"div",
+							{ className: "card" },
+							React.createElement(
+								"div",
+								{ className: "card-image" },
+								React.createElement("img", { src: "img/CustomBlends/RetailMeNot.png" })
+							),
+							React.createElement(
+								"div",
+								{ className: "card-content" },
+								React.createElement(
+									"span",
+									{ className: "card-title activator grey-text text-darken-4" },
+									"Mohawk Blend",
+									React.createElement(
+										"i",
+										{ className: "material-icons right" },
+										"more_vert"
+									)
+								),
+								React.createElement(
+									"button",
+									{
+										className: "snipcart-add-item waves-light btn",
+										"data-item-id": "2",
+										"data-item-name": "Mohawk",
+										"data-item-price": "12.99",
+										"data-item-weight": "16",
+										"data-item-url": "/",
+										"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
+									"Add to Cart"
+								)
+							),
+							React.createElement(
+								"div",
+								{ className: "card-reveal" },
+								React.createElement(
+									"span",
+									{ className: "card-title grey-text text-darken-4" },
+									"Mohawk Blend",
+									React.createElement(
+										"i",
+										{ className: "material-icons right" },
+										"close"
+									)
+								),
+								React.createElement(
+									"p",
+									null,
+									"An exclusive blend done for and with the greatest rock and roll bar on the planet -- ",
+									React.createElement(
+										"a",
+										{ href: "http://www.mohawkaustin.com" },
+										"The Mohawk"
+									)
+								)
+							)
+						)
+					),
+					React.createElement(
+						"div",
+						{ className: "col s12 m4" },
+						React.createElement(
+							"div",
+							{ className: "card" },
+							React.createElement(
+								"div",
+								{ className: "card-image" },
+								React.createElement("img", { src: "img/CustomBlends/RoosterTeeth.png" })
+							),
+							React.createElement(
+								"div",
+								{ className: "card-content" },
+								React.createElement(
+									"span",
+									{ className: "card-title activator grey-text text-darken-4" },
+									"House Blend",
+									React.createElement(
+										"i",
+										{ className: "material-icons right" },
+										"more_vert"
+									)
+								),
+								React.createElement(
+									"button",
+									{
+										className: "snipcart-add-item waves-light btn",
+										"data-item-id": "11",
+										"data-item-name": "House",
+										"data-item-price": "12.99",
+										"data-item-weight": "16",
+										"data-item-url": "/",
+										"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
+									"Add to Cart"
+								)
+							),
+							React.createElement(
+								"div",
+								{ className: "card-reveal" },
+								React.createElement(
+									"span",
+									{ className: "card-title grey-text text-darken-4" },
+									"House Blend",
+									React.createElement(
+										"i",
+										{ className: "material-icons right" },
+										"close"
+									)
+								),
+								React.createElement(
+									"p",
+									null,
+									"Medium body and well rounded. Vanilla and chocolate malt with a blackberry like acidity in the finish to cleanse the palate."
+								)
+							)
+						)
+					)
+				)
+			);
+		}
 	});
 
-	module.exports = SingleOriginsSection;
+	module.exports = CustomBlends;
 
 /***/ },
 /* 164 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-
-	var React = __webpack_require__(1);
-
-	var Blends = React.createClass({
-								displayName: "Blends",
-
-								render: function render() {
-															return React.createElement(
-																						"div",
-																						{ className: "container" },
-																						React.createElement(
-																													"h5",
-																													{ className: "center", id: "blends" },
-																													"Our Signature Coffee Blends:"
-																						),
-																						React.createElement(
-																													"div",
-																													{ className: "row" },
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/blends/04-Mohawk.png" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"Mohawk Blend",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "12",
-																																																																							"data-item-name": "Mohawk",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"Mohawk Blend",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"Full bodied, velvety, and chocolaty. Low acidity."
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"An exclusive blend done for and with the greatest rock and roll bar on the planet -- ",
-																																																																React.createElement(
-																																																																							"a",
-																																																																							{ href: "http://www.mohawkaustin.com" },
-																																																																							"The Mohawk"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "12",
-																																																																							"data-item-name": "Mohawk",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													),
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/blends/05-Mother.png" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"Mother Blend",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "13",
-																																																																							"data-item-name": "Mother's",
-																																																																							"data-item-price": "13.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"Mother Blend",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"Full bodied and complex. Berries, cream, low acidity, and caramel sweetness."
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"Reviving Mothers one cup at a time. Because all Mothers are working Mothers!"
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "13",
-																																																																							"data-item-name": "Mother's",
-																																																																							"data-item-price": "13.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													),
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/blends/06-Toddy.png" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"Toddy Blend",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "14",
-																																																																							"data-item-name": "Toddy",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"Toddy Blend",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"A well-balanced, low-acidic based blend for iced coffee."
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"The Toddy drip at Progress brings iced coffee to a whole new level."
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"A half light, half dark secret bean blend that creates a well balanced low acidic based iced coffee when slow brewed using the process of the cold Toddy drip."
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "14",
-																																																																							"data-item-name": "Toddy",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													)
-																						),
-																						React.createElement(
-																													"div",
-																													{ className: "row" },
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/blends/01-Cowboy.png" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"Cowboy Blend",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "9",
-																																																																							"data-item-name": "Cowboy",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"Cowboy Blend",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"Medium body, a slight hint of cream mixes with under tones of peanut butter to create a smooth and pleasant cup with a sweet finish."
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"A simple and strong coffee for the Cowboy in all of us..."
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"Both strong and brave, rustic and wild, bold and brooding- this special blend is meant for a cup long before sunrise or just as the day breaks on the prairie."
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "9",
-																																																																							"data-item-name": "Cowboy",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													),
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/blends/02-Espresso.png" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"Espresso Blend",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "10",
-																																																																							"data-item-name": "Espresso",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"Espresso Blend",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"A full bodied, balanced yet complex espresso."
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"Mixed berries, cream, low acidity with a slight caramel sweetness."
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "10",
-																																																																							"data-item-name": "Espresso",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													),
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/blends/03-House.png" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"House Blend",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "11",
-																																																																							"data-item-name": "House",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"House Blend",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"Medium body and well rounded. Vanilla and chocolate malt with a blackberry like acidity in the finish to cleanse the palate."
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "11",
-																																																																							"data-item-name": "House",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													)
-																						),
-																						React.createElement(
-																													"div",
-																													{ className: "row" },
-																													React.createElement(
-																																				"div",
-																																				{ className: "col s12 m4 offset-m4" },
-																																				React.createElement(
-																																											"div",
-																																											{ className: "row" },
-																																											React.createElement(
-																																																		"div",
-																																																		{ className: "card" },
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-image" },
-																																																									React.createElement("img", { src: "img/blends/07-Italian.png" })
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-content" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title activator grey-text text-darken-4" },
-																																																																"Italian",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"more_vert"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "15",
-																																																																							"data-item-name": "Italian",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		),
-																																																		React.createElement(
-																																																									"div",
-																																																									{ className: "card-reveal" },
-																																																									React.createElement(
-																																																																"span",
-																																																																{ className: "card-title grey-text text-darken-4" },
-																																																																"Italian",
-																																																																React.createElement(
-																																																																							"i",
-																																																																							{ className: "material-icons right" },
-																																																																							"close"
-																																																																)
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"This dark chocolaty roast is full bodied with no acidity."
-																																																									),
-																																																									React.createElement(
-																																																																"p",
-																																																																null,
-																																																																"You’ll notice a caramel sweetness similar to that of creme brulee. A tingling of anise and pepper will round up your taste buds for a fabulously enjoyable coffee."
-																																																									),
-																																																									React.createElement(
-																																																																"button",
-																																																																{
-																																																																							className: "snipcart-add-item waves-light btn",
-																																																																							"data-item-id": "15",
-																																																																							"data-item-name": "Italian",
-																																																																							"data-item-price": "12.99",
-																																																																							"data-item-weight": "16",
-																																																																							"data-item-url": "/",
-																																																																							"data-item-custom2-options": "Whole Bean|French Press|Drip Machine|Espresso Machine|Cone Filter" },
-																																																																"Add to Cart"
-																																																									)
-																																																		)
-																																											)
-																																				)
-																													)
-																						)
-															);
-								}
-	});
-
-	module.exports = Blends;
-
-/***/ },
-/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -21627,7 +20673,7 @@
 	module.exports = Lorem;
 
 /***/ },
-/* 166 */
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -21734,81 +20780,6 @@
 	});
 
 	module.exports = Footer;
-
-/***/ },
-/* 167 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-
-	var React = __webpack_require__(1);
-
-	var AboutSection = React.createClass({
-		displayName: "AboutSection",
-
-		render: function render() {
-			return React.createElement(
-				"div",
-				{ className: "container" },
-				React.createElement(
-					"div",
-					{ className: "section" },
-					React.createElement(
-						"h5",
-						{ className: "center", id: "aboutProgress" },
-						"Our Story:"
-					),
-					React.createElement(
-						"div",
-						{ className: "row" },
-						React.createElement(
-							"div",
-							{ className: "col s12 m12" },
-							React.createElement(
-								"div",
-								{ className: "icon-block" },
-								React.createElement(
-									"p",
-									{ className: "light center" },
-									"Progress Coffee Roasting was birthed from a sweet little café on East 5th Street in Austin, Texas. Such a beautiful community grew and grew into a paragon of Progress that launched wonderful coffee roasted by wonderful people. Now you can be part of the Progress by ordering here at the online store and the life and vitality of our community will be delivered straight to your door."
-								),
-								React.createElement(
-									"p",
-									{ className: "light center" },
-									"We emphasize environmental friendliness, make decisions and actions that positively impact our local communities and those not so local. We are blessed that we can do all this by roasting small batches of select beans at our boutique roasting facility in Austin, Texas!"
-								),
-								React.createElement(
-									"h6",
-									{ className: "center" },
-									"Better ",
-									React.createElement(
-										"strong",
-										null,
-										"coffee"
-									),
-									". Better ",
-									React.createElement(
-										"strong",
-										null,
-										"life"
-									),
-									". Better ",
-									React.createElement(
-										"strong",
-										null,
-										"world"
-									),
-									"."
-								)
-							)
-						)
-					)
-				)
-			);
-		}
-	});
-
-	module.exports = AboutSection;
 
 /***/ }
 /******/ ]);
