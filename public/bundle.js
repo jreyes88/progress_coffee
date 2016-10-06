@@ -19795,7 +19795,7 @@
 					React.createElement(
 						'div',
 						{ className: 'parallax' },
-						React.createElement('img', { src: 'img/parallaxBackgrounds/01-rawBeans.jpg', alt: 'Raw Coffee Beans' })
+						React.createElement('img', { src: 'img/parallaxBackgrounds/01-rawBeans.jpg', alt: 'Raw Coffee Beans', id: 'rawCoffeeParallaxImage' })
 					)
 				),
 				React.createElement(AboutSection, null),
@@ -20052,12 +20052,12 @@
 								{ className: 'icon-block' },
 								React.createElement(
 									'p',
-									{ className: 'light center' },
+									{ className: 'light center justifyText' },
 									'Progress Coffee Roasting was birthed from a sweet little café on East 5th Street in Austin, Texas. Such a beautiful community grew and grew into a paragon of Progress that launched wonderful coffee roasted by wonderful people. Now you can be part of the Progress by ordering here at the online store and the life and vitality of our community will be delivered straight to your door.'
 								),
 								React.createElement(
 									'p',
-									{ className: 'light center' },
+									{ className: 'light center justifyText' },
 									'We emphasize environmental friendliness, make decisions and actions that positively impact our local communities and those not so local. We are blessed that we can do all this by roasting small batches of select beans at our boutique roasting facility in Austin, Texas!'
 								),
 								React.createElement(
@@ -20264,7 +20264,7 @@
 								React.createElement(
 									'span',
 									{ className: 'card-title activator grey-text text-darken-4' },
-									'House Blend',
+									'Progress House Blend',
 									React.createElement(
 										'i',
 										{ className: 'material-icons right' },
@@ -20290,7 +20290,7 @@
 								React.createElement(
 									'span',
 									{ className: 'card-title grey-text text-darken-4' },
-									'House Blend',
+									'Progress House Blend',
 									React.createElement(
 										'i',
 										{ className: 'material-icons right' },
@@ -20389,7 +20389,7 @@
 								React.createElement(
 									'span',
 									{ className: 'card-title activator grey-text text-darken-4' },
-									'Honduras',
+									'Honduras Single Origin',
 									React.createElement(
 										'i',
 										{ className: 'material-icons right' },
@@ -20415,7 +20415,7 @@
 								React.createElement(
 									'span',
 									{ className: 'card-title grey-text text-darken-4' },
-									'Honduras',
+									'Honduras Single Origin',
 									React.createElement(
 										'i',
 										{ className: 'material-icons right' },
@@ -20453,9 +20453,14 @@
 				'div',
 				{ className: 'container' },
 				React.createElement(
+					'h1',
+					null,
+					'ADD HELM BOOTS'
+				),
+				React.createElement(
 					'p',
 					{ className: 'center' },
-					'From custom blend creations catering to your taste profile to specialized labels on the coffee bags, we\'ll work tirelessly to build a truly memorable coffee brand for your business or occasion.'
+					'From custom blend creations catering to your taste profile to specialized labels on the coffee bags, we\'ll work tirelessly to build a truly memorable coffee experience that highlights your business or occasion.'
 				),
 				React.createElement(
 					'p',
@@ -20510,10 +20515,38 @@
 					{ className: 'row' },
 					React.createElement(
 						'div',
-						{ className: 'customBlendCompanies' },
-						React.createElement('img', { src: 'img/CustomBlendCompanies/Dropbox.png', className: 'customBlendCompaniesFirstRowImages' }),
-						React.createElement('img', { src: 'img/CustomBlendCompanies/RoosterTeeth.png', className: 'customBlendCompaniesFirstRowImages', id: 'roosterTeethImage' }),
+						{ className: 'col s12 m3' },
+						React.createElement('img', { src: 'img/CustomBlendCompanies/Dropbox.png', className: 'customBlendCompaniesFirstRowImages' })
+					),
+					React.createElement(
+						'div',
+						{ className: 'col s12 m3' },
+						React.createElement('img', { src: 'img/CustomBlendCompanies/RoosterTeeth.png', id: 'roosterTeethImage', className: 'customBlendCompaniesFirstRowImages' })
+					),
+					React.createElement(
+						'div',
+						{ className: 'col s12 m3' },
 						React.createElement('img', { src: 'img/CustomBlendCompanies/SFC.png', className: 'customBlendCompaniesFirstRowImages' })
+					),
+					React.createElement(
+						'div',
+						{ className: 'col s12 m3' },
+						React.createElement('img', { src: 'img/CustomBlendCompanies/HelmBoots.png', className: 'customBlendCompaniesFirstRowImages', id: 'helmBootsImage' })
+					),
+					React.createElement(
+						'div',
+						{ className: 'col s12 m4' },
+						React.createElement('img', { src: 'img/CustomBlendCompanies/RetailMeNot.png', className: 'customBlendCompaniesSecondRowImages', id: 'retailMeNotImage' })
+					),
+					React.createElement(
+						'div',
+						{ className: 'col s12 m4' },
+						React.createElement('img', { src: 'img/CustomBlendCompanies/UrbanSpace.png', className: 'customBlendCompaniesSecondRowImages' })
+					),
+					React.createElement(
+						'div',
+						{ className: 'col s12 m4' },
+						React.createElement('img', { src: 'img/CustomBlendCompanies/BirdsBarbershop.png', className: 'customBlendCompaniesSecondRowImages' })
 					)
 				)
 			);

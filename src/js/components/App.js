@@ -29,7 +29,7 @@ var App = React.createClass({
 			            </div>
 			        </div>
 			        <div className='parallax'>
-			            <img src='img/parallaxBackgrounds/01-rawBeans.jpg' alt='Raw Coffee Beans'/>
+			            <img src='img/parallaxBackgrounds/01-rawBeans.jpg' alt='Raw Coffee Beans' id ='rawCoffeeParallaxImage'/>
 			        </div>
 			    </div>
 

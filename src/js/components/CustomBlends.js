@@ -4,8 +4,9 @@ var CustomBlends = React.createClass({
 	render: function(){
 		return(
 			<div className='container'>
+				<h1>ADD HELM BOOTS</h1>
 		        <p className='center'>
-		        	From custom blend creations catering to your taste profile to specialized labels on the coffee bags, we'll work tirelessly to build a truly memorable coffee brand for your business or occasion.
+		        	From custom blend creations catering to your taste profile to specialized labels on the coffee bags, we'll work tirelessly to build a truly memorable coffee experience that highlights your business or occasion.
 		        </p>
 		        <p className='center'>
 		        	The following are custom labels used by some of our favorite business partners.
@@ -35,11 +36,27 @@ var CustomBlends = React.createClass({
 		            </div>
 		        </div>
 		        <div className='row'>
-		        	<div className='customBlendCompanies'>
+		        	<div className='col s12 m3'>
 		        		<img src='img/CustomBlendCompanies/Dropbox.png' className='customBlendCompaniesFirstRowImages'/>
-		        		<img src='img/CustomBlendCompanies/RoosterTeeth.png' className='customBlendCompaniesFirstRowImages' id='roosterTeethImage'/>
+		        	</div>
+		        	<div className='col s12 m3'>
+		        		<img src='img/CustomBlendCompanies/RoosterTeeth.png' id='roosterTeethImage' className='customBlendCompaniesFirstRowImages'/>
+		        	</div>
+		        	<div className='col s12 m3'>
 		        		<img src='img/CustomBlendCompanies/SFC.png' className='customBlendCompaniesFirstRowImages'/>
-		            </div>
+		        	</div>
+		        	<div className='col s12 m3'>
+		        		<img src='img/CustomBlendCompanies/HelmBoots.png' className='customBlendCompaniesFirstRowImages' id='helmBootsImage'/>
+		        	</div>
+		        	<div className='col s12 m4'>
+		        		<img src='img/CustomBlendCompanies/RetailMeNot.png' className='customBlendCompaniesSecondRowImages' id='retailMeNotImage'/>
+		        	</div>
+		        	<div className='col s12 m4'>
+		        		<img src='img/CustomBlendCompanies/UrbanSpace.png' className='customBlendCompaniesSecondRowImages'/>
+		        	</div>
+		        	<div className='col s12 m4'>
+		        		<img src='img/CustomBlendCompanies/BirdsBarbershop.png' className='customBlendCompaniesSecondRowImages'/>
+		        	</div>
 		        </div>
 		    </div>
 		)

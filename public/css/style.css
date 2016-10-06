@@ -23,6 +23,10 @@ nav ul a:hover {
     width: 28%;
 }
 
+#rawCoffeeParallaxImage {
+    left: 29%;
+}
+
 .parallax-container {
     min-height: 380px;
     line-height: 0;
@@ -45,15 +49,6 @@ nav ul a:hover {
 .card {
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.customBlendCompanies {
-    background-color: red;
-    height: 85px;
-    width: 240px;
-    display: block;
-    padding: 0;
-    margin: 0 auto;
 }
 
 i.right {
@@ -79,15 +74,40 @@ p {
     line-height: 2rem;
 }
 
+.justifyText {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 /* ================================ */
 /* ===== Custom Blend Section ===== */
 /* ================================ */
 .customBlendCompaniesFirstRowImages {
-    width: 80px;
+    width: 100px;
+    margin: 0 20px;
 }
 
 #roosterTeethImage {
     margin-bottom: 13px;
+}
+
+#helmBootsImage {
+    margin-bottom: 20px;
+}
+
+.customBlendCompaniesSecondRowImages {
+    width: 220px;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#retailMeNotImage {
+    margin-bottom: 22px;
+}
+
+#birdsBarbershopImage {
+    
 }
 
 /* ================================ */
@@ -111,6 +131,7 @@ p {
         position: absolute;
         top: 40%;
     }
+
     #index-banner .section {
         top: 10%;
     }
@@ -119,5 +140,13 @@ p {
 @media only screen and (max-width : 600px) {
     #index-banner .section {
         top: 0;
+    }
+
+    .logoPicture {
+        width: 50%;
+    }
+
+    #rawCoffeeParallaxImage {
+        left: -30%;
     }
 }
