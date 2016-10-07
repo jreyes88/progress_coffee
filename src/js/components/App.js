@@ -5,7 +5,7 @@ var Nav = require('./nav.js');
 var AboutSection = require('./AboutSection.js');
 var FeaturedCoffee = require('./FeaturedCoffee.js');
 var CustomBlends = require('./CustomBlends.js');
-var Lorem = require('./loremIpsum.js');
+var Contact = require('./Contact.js');
 var Footer = require('./Footer.js');
 
 function getAppState(){
@@ -84,7 +84,7 @@ var App = React.createClass({
 			        </div>
 			    </div>
 
-			    <Lorem />
+			    <Contact />
 
 			    <Footer />
 

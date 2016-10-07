@@ -1,40 +1,40 @@
 $(function() {
     $('.error').hide();
-    $(".subbutton").click(function() {
+    $('.subbutton').click(function() {
 
       // validate and process form here
 
       $('.error').hide();
-      var name = $("#name").val();
-        if (name == "") {
-        $("#name_error").show();
-        $("#name").focus();
+      var name = $('#name').val();
+        if (name == '') {
+        $('#name_error').show();
+        $('#name').focus();
         return false;
       }
-        var email = $("#email").val();
-        if (email == "") {
-        $("#email_error").show();
-        $("#email").focus();
+        var email = $('#email').val();
+        if (email == '') {
+        $('#email_error').show();
+        $('#email').focus();
         return false;
       }
-      var email = $("#email").val();
+      var email = $('#email').val();
         if ( !isValidEmailAddress( email ) ) {
-        $("#email_invalid_error").show();
-        $("#email").focus();
+        $('#email_invalid_error').show();
+        $('#email').focus();
         return false;
       }
-        var message = $("#message").val();
-        if (message == "") {
-        $("#message_error").show();
-        $("#message").focus();
+        var message = $('#message').val();
+        if (message == '') {
+        $('#message_error').show();
+        $('#message').focus();
         return false;
       }
 
 
   var dataString = '<p><strong>Name: </strong> '+ name + '</p><p><strong>Email: </strong> ' + email + '</p><p><strong>Message: </strong> ' + message + '</p>';
   $.ajax({
-    type: "POST",
-    url: "js/send.php",
+    type: 'POST',
+    url: 'js/send.php',
     data: { data: dataString, senderAddress: email },
     success: function() {
 
@@ -45,9 +45,9 @@ $(function() {
 
 
      // clear input field values
-      $("#name").val('');
-      $("#email").val('');
-      $("#message").val('');
+      $('#name').val('');
+      $('#email').val('');
+      $('#message').val('');
 
 
     }

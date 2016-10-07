@@ -5,17 +5,17 @@ if( isset($_POST) ){
     $mailgun = sendMailgun($postData);
 
     if($mailgun) {
-    echo "Great success.";
+    echo 'Great success.';
   } else {
-    echo "Mailgun did not connect properly.";
+    echo 'Mailgun did not connect properly.';
   }
 }
 
 function sendMailgun($data) {
 
-  $api_key = 'INSERT_API_KEY_HERE';
-  $api_domain = 'INSERT_DOMAIN_HERE';
-  $send_to = 'YOUR_EMAIL';
+  $api_key = 'key-a3b37e4ccfc1404a9242878394be664c';
+  $api_domain = 'https://api.mailgun.net/v3/progresscoffee.website';
+  $send_to = 'jreyes88@gmail.com';
 
     // sumbission data
         $ipaddress = $_SERVER['REMOTE_ADDR'];
@@ -26,9 +26,9 @@ function sendMailgun($data) {
         $postcontent = $data['data'];
         $reply = $data['senderAddress'];  
 
-  $messageBody = "<p>You have received a new message from the contact form on your website.</p>
+  $messageBody = '<p>You have received a new message from the contact form on your website.</p>
                 {$postcontent}
-                <p>This message was sent from the IP Address: {$ipaddress} on {$date} at {$time}</p>";
+                <p>This message was sent from the IP Address: {$ipaddress} on {$date} at {$time}</p>';
 
   $config = array();
   $config['api_key'] = $api_key;
@@ -38,14 +38,14 @@ function sendMailgun($data) {
   $message['from'] = $reply;
   $message['to'] = $send_to;
   $message['h:Reply-To'] = $reply;
-  $message['subject'] = "New Message from your Mailgun Contact Form";
+  $message['subject'] = 'New Message from your Mailgun Contact Form';
   $message['html'] = $messageBody;
 
   $curl = curl_init();
 
   curl_setopt($curl, CURLOPT_URL, $config['api_url']);
   curl_setopt($curl, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
-  curl_setopt($curl, CURLOPT_USERPWD, "api:{$config['api_key']}");
+  curl_setopt($curl, CURLOPT_USERPWD, 'api:{$config['api_key']}');
   curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
   curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 10);
   curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0);

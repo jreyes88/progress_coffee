@@ -19761,7 +19761,7 @@
 	var AboutSection = __webpack_require__(161);
 	var FeaturedCoffee = __webpack_require__(162);
 	var CustomBlends = __webpack_require__(163);
-	var Lorem = __webpack_require__(164);
+	var Contact = __webpack_require__(164);
 	var Footer = __webpack_require__(165);
 
 	function getAppState() {
@@ -19879,7 +19879,7 @@
 						React.createElement('img', { src: 'img/parallaxBackgrounds/04-cupOfCoffee.jpg', alt: 'Steaming Cup of Coffee' })
 					)
 				),
-				React.createElement(Lorem, null),
+				React.createElement(Contact, null),
 				React.createElement(Footer, null)
 			);
 		}
@@ -20563,45 +20563,70 @@
 
 	var React = __webpack_require__(1);
 
-	var Lorem = React.createClass({
-		displayName: 'Lorem',
+	var Contact = React.createClass({
+		displayName: 'Contact',
 
 		render: function render() {
 			return React.createElement(
 				'div',
 				{ className: 'container' },
 				React.createElement(
-					'div',
-					{ className: 'section' },
+					'form',
+					{ id: 'contact', action: '' },
 					React.createElement(
-						'div',
-						{ className: 'row' },
-						React.createElement(
-							'div',
-							{ className: 'col s12 center' },
-							React.createElement(
-								'h3',
-								null,
-								React.createElement('i', { className: 'mdi-content-send brown-text' })
-							),
-							React.createElement(
-								'h4',
-								null,
-								'Contact Us'
-							),
-							React.createElement(
-								'p',
-								{ className: 'left-align light' },
-								'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;'
-							)
-						)
-					)
+						'label',
+						{ htmlFor: 'name', id: 'name_label' },
+						'Name *'
+					),
+					React.createElement(
+						'label',
+						{ className: 'error', htmlFor: 'name', id: 'name_error' },
+						'this field is required'
+					),
+					React.createElement('br', null),
+					' ',
+					React.createElement('input', { type: 'text', name: 'name', id: 'name', value: '', className: 'text-input', placeholder: 'How should I call you?' }),
+					React.createElement('br', null),
+					React.createElement(
+						'label',
+						{ htmlFor: 'email', id: 'email_label' },
+						'E-Mail *'
+					),
+					React.createElement(
+						'label',
+						{ className: 'error', htmlFor: 'email', id: 'email_error' },
+						'this field is required'
+					),
+					React.createElement(
+						'label',
+						{ className: 'error', htmlFor: 'email', id: 'email_invalid_error' },
+						'please insert a valid email'
+					),
+					React.createElement('br', null),
+					' ',
+					React.createElement('input', { type: 'email', name: 'email', id: 'email', value: '', className: 'text-input', placeholder: 'How can I reach you?' }),
+					React.createElement('br', null),
+					React.createElement(
+						'label',
+						{ htmlFor: 'message' },
+						'Message *'
+					),
+					React.createElement(
+						'label',
+						{ className: 'error', htmlFor: 'message', id: 'message_error' },
+						'this field is required'
+					),
+					React.createElement('br', null),
+					' ',
+					React.createElement('textarea', { name: 'message', id: 'message', rows: '8', className: 'text-input', placeholder: 'What would you like to tell me?' }),
+					React.createElement('br', null),
+					React.createElement('input', { name: 'submit', id: 'submit', value: 'Send me Mail!', type: 'submit', className: 'subbutton' })
 				)
 			);
 		}
 	});
 
-	module.exports = Lorem;
+	module.exports = Contact;
 
 /***/ },
 /* 165 */
