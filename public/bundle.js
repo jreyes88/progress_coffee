@@ -20453,11 +20453,6 @@
 				'div',
 				{ className: 'container' },
 				React.createElement(
-					'h1',
-					null,
-					'ADD HELM BOOTS'
-				),
-				React.createElement(
 					'p',
 					{ className: 'center' },
 					'From custom blend creations catering to your taste profile to specialized labels on the coffee bags, we\'ll work tirelessly to build a truly memorable coffee experience that highlights your business or occasion.'
@@ -20585,7 +20580,7 @@
 					),
 					React.createElement('br', null),
 					' ',
-					React.createElement('input', { type: 'text', name: 'name', id: 'name', value: '', className: 'text-input', placeholder: 'How should I call you?' }),
+					React.createElement('input', { type: 'text', name: 'name', id: 'name', defaultValue: '', className: 'text-input', placeholder: 'How should I call you?' }),
 					React.createElement('br', null),
 					React.createElement(
 						'label',
@@ -20604,7 +20599,7 @@
 					),
 					React.createElement('br', null),
 					' ',
-					React.createElement('input', { type: 'email', name: 'email', id: 'email', value: '', className: 'text-input', placeholder: 'How can I reach you?' }),
+					React.createElement('input', { type: 'email', name: 'email', id: 'email', defaultValue: '', className: 'text-input', placeholder: 'How can I reach you?' }),
 					React.createElement('br', null),
 					React.createElement(
 						'label',
@@ -20620,7 +20615,7 @@
 					' ',
 					React.createElement('textarea', { name: 'message', id: 'message', rows: '8', className: 'text-input', placeholder: 'What would you like to tell me?' }),
 					React.createElement('br', null),
-					React.createElement('input', { name: 'submit', id: 'submit', value: 'Send me Mail!', type: 'submit', className: 'subbutton' })
+					React.createElement('input', { name: 'submit', id: 'submit', defaultValue: 'Send me Mail!', type: 'submit', className: 'subbutton' })
 				)
 			);
 		}

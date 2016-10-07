@@ -8,14 +8,14 @@ var Contact = React.createClass({
 
 					<label htmlFor='name' id='name_label'>Name *</label>
 					<label className='error' htmlFor='name' id='name_error'>this field is required</label>
-					<br /> <input type='text' name='name' id='name' value='' className='text-input' placeholder='How should I call you?' />
+					<br /> <input type='text' name='name' id='name' defaultValue='' className='text-input' placeholder='How should I call you?' />
 
 
 					<br />
 					<label htmlFor='email' id='email_label'>E-Mail *</label>
 					<label className='error' htmlFor='email' id='email_error'>this field is required</label>
 					<label className='error' htmlFor='email' id='email_invalid_error'>please insert a valid email</label>
-					<br /> <input type='email' name='email' id='email' value='' className='text-input' placeholder='How can I reach you?' />
+					<br /> <input type='email' name='email' id='email' defaultValue='' className='text-input' placeholder='How can I reach you?' />
 
 
 					<br />
@@ -25,7 +25,7 @@ var Contact = React.createClass({
 
 
 					<br />
-					<input name='submit' id='submit' value='Send me Mail!' type='submit' className='subbutton' />
+					<input name='submit' id='submit' defaultValue='Send me Mail!' type='submit' className='subbutton' />
 
 				</form>
 		    </div>
