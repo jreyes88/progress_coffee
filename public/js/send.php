@@ -13,8 +13,8 @@ if( isset($_POST) ){
 
 function sendMailgun($data) {
 
-  $api_key = 'key-a3b37e4ccfc1404a9242878394be664c';
-  $api_domain = 'https://api.mailgun.net/v3/progresscoffee.website';
+  $api_key = 'pubkey-9aa901584ed038281ce6ba19d4a4547c';
+  $api_domain = 'app456a6dde74b149f4a864111465b2ccd6.mailgun.org';
   $send_to = 'jreyes88@gmail.com';
 
     // sumbission data
