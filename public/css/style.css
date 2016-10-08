@@ -132,6 +132,10 @@ p {
         top: 40%;
     }
 
+    .socialMediaIcons {
+        width: 16%;
+    }
+
     #index-banner .section {
         top: 10%;
     }
@@ -148,5 +152,9 @@ p {
 
     #rawCoffeeParallaxImage {
         left: -30%;
+    }
+
+    .socialMediaIcons {
+        width: 20%;
     }
 }

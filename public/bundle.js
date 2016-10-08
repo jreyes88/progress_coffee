@@ -20702,7 +20702,7 @@
 							{ className: 'row' },
 							React.createElement(
 								'div',
-								{ className: 'col l6 s12' },
+								{ className: 'col l6 m6 s6' },
 								React.createElement(
 									'p',
 									null,
@@ -20711,7 +20711,7 @@
 							),
 							React.createElement(
 								'div',
-								{ className: 'col l6 s12' },
+								{ className: 'col l6 m6 s6' },
 								React.createElement(
 									'a',
 									{ href: 'https://twitter.com/progresscoffee/' },

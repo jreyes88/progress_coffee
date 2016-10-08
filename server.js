@@ -36,7 +36,7 @@ var data = {
 };
 
 mailgun.messages().send(data, function (error, body) {
-  console.log(body);
+  // console.log(body);
 });
 
 // Routes
@@ -46,8 +46,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/submit/:mail', function(req,res) {
-	console.log(req);
-
+	console.log(req.body);
     //We pass the api_key and domain to the wrapper, or it won't be able to identify + send emails
     var mailgun = new Mailgun({apiKey: api_key, domain: domain});
 

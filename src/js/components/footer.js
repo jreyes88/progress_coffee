@@ -33,12 +33,12 @@ var Footer = React.createClass({
 		        <div className='footer-copyright'>
 		            <div className='container'>
 		            	<div className='row'>
-		            		<div className='col l6 s12'>
+		            		<div className='col l6 m6 s6'>
 				                <p>
 				                    {String.fromCharCode(169) + ' 2016 Progress Coffee'}
 				                </p>
 				            </div>
-				            <div className='col l6 s12'>
+				            <div className='col l6 m6 s6'>
 				            	<a href='https://twitter.com/progresscoffee/'>
 			                		<img src='img/SocialMedia/TwitterIcon.png' className='socialMediaIcons' alt='Twitter Icon'/>
 			                	</a>
