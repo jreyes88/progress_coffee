@@ -11,11 +11,6 @@ var Nav = React.createClass({
 				        </a>
 				        <ul className='right hide-on-med-and-down'>
 				            <li>
-				                <a href='#aboutProgress'>
-				                    About Progress
-				                </a>
-				            </li>
-				            <li>
 				                <a href='#featuredCoffee'>
 				                    Featured Coffee
 				                </a>
@@ -41,11 +36,6 @@ var Nav = React.createClass({
 				        </ul>
 
 				        <ul id='nav-mobile' className='side-nav'>
-				            <li>
-				                <a href='#aboutProgress'>
-				                    About Progress
-				                </a>
-				            </li>
 				            <li>
 				                <a href='#featuredCoffee'>
 				                    Featured Coffee

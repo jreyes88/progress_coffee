@@ -19921,15 +19921,6 @@
 								null,
 								React.createElement(
 									'a',
-									{ href: '#aboutProgress' },
-									'About Progress'
-								)
-							),
-							React.createElement(
-								'li',
-								null,
-								React.createElement(
-									'a',
 									{ href: '#featuredCoffee' },
 									'Featured Coffee'
 								)
@@ -19974,15 +19965,6 @@
 						React.createElement(
 							'ul',
 							{ id: 'nav-mobile', className: 'side-nav' },
-							React.createElement(
-								'li',
-								null,
-								React.createElement(
-									'a',
-									{ href: '#aboutProgress' },
-									'About Progress'
-								)
-							),
 							React.createElement(
 								'li',
 								null,
