@@ -20541,7 +20541,7 @@
 					React.createElement(
 						'div',
 						{ className: 'col s12 m4' },
-						React.createElement('img', { src: 'img/CustomBlendCompanies/BirdsBarberShop.png', className: 'customBlendCompaniesSecondRowImages', id: 'birdsBarbershopImage' })
+						React.createElement('img', { src: 'img/CustomBlendCompanies/BirdsBarberShoppppp.png', className: 'customBlendCompaniesSecondRowImages', id: 'birdsBarbershopImage' })
 					)
 				)
 			);
