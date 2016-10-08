@@ -20394,7 +20394,7 @@
 								React.createElement(
 									'span',
 									{ className: 'card-title activator grey-text text-darken-4' },
-									'Honduras Single Origin',
+									'Honduras SHG EP',
 									React.createElement(
 										'i',
 										{ className: 'material-icons right' },
@@ -20420,7 +20420,7 @@
 								React.createElement(
 									'span',
 									{ className: 'card-title grey-text text-darken-4' },
-									'Honduras Single Origin',
+									'Honduras SHG EP',
 									React.createElement(
 										'i',
 										{ className: 'material-icons right' },

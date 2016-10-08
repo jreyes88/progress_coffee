@@ -158,7 +158,7 @@ var Blends = React.createClass({
 	                        </div>
 	                        <div className='card-content'>
 	                            <span className='card-title activator grey-text text-darken-4'>
-	                                Honduras Single Origin
+	                                Honduras SHG EP
 	                                <i className='material-icons right'>more_vert</i>
 	                            </span>
 	                            <button
@@ -174,7 +174,7 @@ var Blends = React.createClass({
 	                        </div>
 	                        <div className='card-reveal'>
 	                            <span className='card-title grey-text text-darken-4'>
-	                                Honduras Single Origin
+	                                Honduras SHG EP
 	                                <i className='material-icons right'>close</i>
 	                            </span>
 	                            <p>
