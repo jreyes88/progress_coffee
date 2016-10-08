@@ -19866,7 +19866,7 @@
 								'div',
 								{ className: 'row center' },
 								React.createElement(
-									'h5',
+									'h3',
 									{ className: 'header col s12 light' },
 									'Contact Us'
 								)
