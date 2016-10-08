@@ -25,7 +25,7 @@ var Contact = React.createClass({
 
 
 					<br />
-					<input name='submit' id='submit' defaultValue='Send me Mail!' type='submit' className='subbutton' />
+					<input name='submit' id='submit' defaultValue='Send me Mail!' type='submit' className='subbutton waves-light btn' />
 
 				</form>
 		    </div>

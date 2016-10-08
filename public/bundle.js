@@ -20620,7 +20620,7 @@
 					' ',
 					React.createElement('textarea', { name: 'message', id: 'message', rows: '8', className: 'text-input', placeholder: 'What would you like to tell me?' }),
 					React.createElement('br', null),
-					React.createElement('input', { name: 'submit', id: 'submit', defaultValue: 'Send me Mail!', type: 'submit', className: 'subbutton' })
+					React.createElement('input', { name: 'submit', id: 'submit', defaultValue: 'Send me Mail!', type: 'submit', className: 'subbutton waves-light btn' })
 				)
 			);
 		}
