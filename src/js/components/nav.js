@@ -42,17 +42,22 @@ var Nav = React.createClass({
 
 				        <ul id='nav-mobile' className='side-nav'>
 				            <li>
-				                <a href='#aboutProgres'>
+				                <a href='#aboutProgress'>
 				                    About Progress
 				                </a>
 				            </li>
 				            <li>
-				                <a href='#allCoffee'>
-				                    Our Coffee
+				                <a href='#featuredCoffee'>
+				                    Featured Coffee
 				                </a>
 				            </li>
 				            <li>
-				                <a href='#contact'>
+				                <a href='#customBlends'>
+				                    Custom Blends
+				                </a>
+				            </li>
+				            <li>
+				                <a href='#contactSection'>
 				                    Contact Us
 				                </a>
 				            </li>
@@ -60,6 +65,9 @@ var Nav = React.createClass({
 				                <a href='#'>
 				                    <i className='material-icons'>shopping_cart</i>
 				                </a>
+				            </li>
+				            <li className='snipcart-summary'>
+			                    <span className='snipcart-total-price'></span>
 				            </li>
 				        </ul>
 				        <a href='#' data-activates='nav-mobile' className='button-collapse'>

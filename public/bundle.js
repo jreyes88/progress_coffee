@@ -19979,7 +19979,7 @@
 								null,
 								React.createElement(
 									'a',
-									{ href: '#aboutProgres' },
+									{ href: '#aboutProgress' },
 									'About Progress'
 								)
 							),
@@ -19988,8 +19988,8 @@
 								null,
 								React.createElement(
 									'a',
-									{ href: '#allCoffee' },
-									'Our Coffee'
+									{ href: '#featuredCoffee' },
+									'Featured Coffee'
 								)
 							),
 							React.createElement(
@@ -19997,7 +19997,16 @@
 								null,
 								React.createElement(
 									'a',
-									{ href: '#contact' },
+									{ href: '#customBlends' },
+									'Custom Blends'
+								)
+							),
+							React.createElement(
+								'li',
+								null,
+								React.createElement(
+									'a',
+									{ href: '#contactSection' },
 									'Contact Us'
 								)
 							),
@@ -20013,6 +20022,11 @@
 										'shopping_cart'
 									)
 								)
+							),
+							React.createElement(
+								'li',
+								{ className: 'snipcart-summary' },
+								React.createElement('span', { className: 'snipcart-total-price' })
 							)
 						),
 						React.createElement(
