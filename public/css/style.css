@@ -154,6 +154,12 @@ p {
         left: -30%;
     }
 
+    .customBlendCompaniesFirstRowImages {
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
     .socialMediaIcons {
         width: 20%;
     }
