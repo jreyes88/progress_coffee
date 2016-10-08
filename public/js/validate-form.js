@@ -34,7 +34,6 @@ $(function() {
   var dataString = '<p><strong>Name: </strong> '+ name + '</p><p><strong>Email: </strong> ' + email + '</p><p><strong>Message: </strong> ' + message + '</p>';
   $.ajax({
     type: 'POST',
-    url: 'js/send.php',
     data: { data: dataString, senderAddress: email },
     success: function() {
 
