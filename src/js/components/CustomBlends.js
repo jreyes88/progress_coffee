@@ -54,7 +54,7 @@ var CustomBlends = React.createClass({
 		        		<img src='img/CustomBlendCompanies/UrbanSpace.png' className='customBlendCompaniesSecondRowImages'/>
 		        	</div>
 		        	<div className='col s12 m4'>
-		        		<img src='img/CustomBlendCompanies/BirdsBarbershop.png' className='customBlendCompaniesSecondRowImages' id='birdsBarbershopImage'/>
+		        		<img src='img/CustomBlendCompanies/BirdsBarberShop.png' className='customBlendCompaniesSecondRowImages' id='birdsBarbershopImage'/>
 		        	</div>
 		        </div>
 		    </div>
