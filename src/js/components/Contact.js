@@ -3,7 +3,7 @@ var React = require('react');
 var Contact = React.createClass({
 	render: function(){
 		return(
-			<div className='container'>
+			<div className='container' id='contactSection'>
 		        <form id='contact' action=''>
 
 					<label htmlFor='name' id='name_label'>Name *</label>

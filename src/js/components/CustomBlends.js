@@ -3,7 +3,7 @@ var React = require('react');
 var CustomBlends = React.createClass({
 	render: function(){
 		return(
-			<div className='container'>
+			<div className='container' id='customBlends'>
 		        <p className='center'>
 		        	From custom blend creations catering to your taste profile to specialized labels on the coffee bags, we'll work tirelessly to build a truly memorable coffee experience that highlights your business or occasion.
 		        </p>

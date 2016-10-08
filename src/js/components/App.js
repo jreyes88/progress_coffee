@@ -74,7 +74,7 @@ var App = React.createClass({
 			            <div className='container'>
 			                <div className='row center'>
 			                    <h5 className='header col s12 light'>
-			                        A modern responsive front-end framework based on Material Design
+			                        Contact Us
 			                    </h5>
 			                </div>
 			            </div>

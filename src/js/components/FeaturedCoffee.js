@@ -3,7 +3,7 @@ var React = require('react');
 var Blends = React.createClass({
 	render: function(){
 		return(
-			<div className='container'>
+			<div className='container' id='featuredCoffee'>
 		        <h5 className='center' id='blends'>
 		            Some of our featured blends:
 		        </h5>

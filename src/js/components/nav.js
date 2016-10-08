@@ -16,12 +16,17 @@ var Nav = React.createClass({
 				                </a>
 				            </li>
 				            <li>
-				                <a href='#singleOrigin'>
-				                    Our Coffee
+				                <a href='#featuredCoffee'>
+				                    Featured Coffee
 				                </a>
 				            </li>
 				            <li>
-				                <a href='#'>
+				                <a href='#customBlends'>
+				                    Custom Blends
+				                </a>
+				            </li>
+				            <li>
+				                <a href='#contactSection'>
 				                    Contact Us
 				                </a>
 				            </li>

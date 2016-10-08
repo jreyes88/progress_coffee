@@ -19868,7 +19868,7 @@
 								React.createElement(
 									'h5',
 									{ className: 'header col s12 light' },
-									'A modern responsive front-end framework based on Material Design'
+									'Contact Us'
 								)
 							)
 						)
@@ -19930,8 +19930,8 @@
 								null,
 								React.createElement(
 									'a',
-									{ href: '#singleOrigin' },
-									'Our Coffee'
+									{ href: '#featuredCoffee' },
+									'Featured Coffee'
 								)
 							),
 							React.createElement(
@@ -19939,7 +19939,16 @@
 								null,
 								React.createElement(
 									'a',
-									{ href: '#' },
+									{ href: '#customBlends' },
+									'Custom Blends'
+								)
+							),
+							React.createElement(
+								'li',
+								null,
+								React.createElement(
+									'a',
+									{ href: '#contactSection' },
 									'Contact Us'
 								)
 							),
@@ -20037,7 +20046,7 @@
 		render: function render() {
 			return React.createElement(
 				'div',
-				{ className: 'container' },
+				{ className: 'container', id: 'aboutProgress' },
 				React.createElement(
 					'div',
 					{ className: 'section' },
@@ -20107,7 +20116,7 @@
 		render: function render() {
 			return React.createElement(
 				'div',
-				{ className: 'container' },
+				{ className: 'container', id: 'featuredCoffee' },
 				React.createElement(
 					'h5',
 					{ className: 'center', id: 'blends' },
@@ -20451,7 +20460,7 @@
 		render: function render() {
 			return React.createElement(
 				'div',
-				{ className: 'container' },
+				{ className: 'container', id: 'customBlends' },
 				React.createElement(
 					'p',
 					{ className: 'center' },
@@ -20564,7 +20573,7 @@
 		render: function render() {
 			return React.createElement(
 				'div',
-				{ className: 'container' },
+				{ className: 'container', id: 'contactSection' },
 				React.createElement(
 					'form',
 					{ id: 'contact', action: '' },

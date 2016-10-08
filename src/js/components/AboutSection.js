@@ -3,7 +3,7 @@ var React = require('react');
 var AboutSection = React.createClass({
 	render: function(){
 		return(
-			<div className='container'>
+			<div className='container' id='aboutProgress'>
 		        <div className='section'>
 		            <div className='row'>
 		                <div className='col s12 m12'>
