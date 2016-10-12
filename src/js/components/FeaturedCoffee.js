@@ -87,7 +87,7 @@ var Blends = React.createClass({
 						    </div>
 						    <div className='card-content'>
 						        <span className='card-title activator grey-text text-darken-4'>
-						            Progress House Blend
+						            Progress House
 						            <i className='material-icons right'>more_vert</i>
 						        </span>
 						        <button

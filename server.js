@@ -23,8 +23,8 @@ app.use(express.static(process.cwd() + '/public'));
 
 // mailgun-js
 // ==========================
-var api_key = '9aa901584ed038281ce6ba19d4a4547c';
-var domain = 'app456a6dde74b149f4a864111465b2ccd6.mailgun.org';
+var api_key = 'key-676ae7b3bf8ea233c73c3fe84bcdc171';
+var domain = 'm.progresscoffee.site';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
 var toWho = 'jreyes88@gmail.com';
 
@@ -36,7 +36,7 @@ var data = {
 };
 
 mailgun.messages().send(data, function (error, body) {
-  // console.log(body);
+  console.log(body);
 });
 
 // Routes

@@ -20269,7 +20269,7 @@
 								React.createElement(
 									'span',
 									{ className: 'card-title activator grey-text text-darken-4' },
-									'Progress House Blend',
+									'Progress House',
 									React.createElement(
 										'i',
 										{ className: 'material-icons right' },
